@@ -28,3 +28,22 @@ export const MEDIA_DETAILS_DATA_LIST = [
         icon: "building",
     },
 ]
+
+export const OUR_SOLUTION_DATA = [
+    {
+        title:"Artists",
+        discrpition:"Verified jobs, skill-based discovery, faster gigs",
+    },
+    {
+        title:"Agencies",
+        discrpition:"Verified jobs, skill-based discovery, faster gigs",
+    },
+    {
+        title:"Celebrities",
+        discrpition:"Verified jobs, skill-based discovery, faster gigs",
+    },
+    {
+        title:"Corporates",
+        discrpition:"Verified jobs, skill-based discovery, faster gigs",
+    },
+]
