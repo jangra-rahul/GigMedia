@@ -47,3 +47,22 @@ export const OUR_SOLUTION_DATA = [
         discrpition:"Verified jobs, skill-based discovery, faster gigs",
     },
 ]
+
+export const PWOERING_DREAM_DATA = [
+    {
+        image :"/images/svg/price.svg",
+        title:"Price, location, experience, rating-based matching",
+    },
+    {
+        image :"/images/svg/search.svg",
+        title:"Dual visibility: Talent hires | Agency discovery",
+    },
+    {
+        image :"/images/svg/people.svg",
+        title:"Fastest onboarding — for artists and agencies",
+    },
+    {
+        image :"/images/svg/growth.svg",
+        title:"Upskilling and learning ecosystem inside the app",
+    },
+]

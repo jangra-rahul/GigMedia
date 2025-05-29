@@ -1,8 +1,9 @@
 import React from "react";
 import footer_logo from "../../../public/images/svg/footer.svg";
-import rightArrow from "../../../public/images/svg/rightArrow.svg";
 import Image from "next/image";
 import footerBottomImg from "../../../public/images/svg/footerBottomImg.png";
+import Icons from "./Icons";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -17,8 +18,8 @@ const Footer = () => {
         />
       </div>
 
-      <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 py-10 align-middle md:grid-cols-4 gap-8 text-sm">
+      <div className="max-w-[1310px] mx-auto px-4 relative z-10">
+        <div className="grid grid-cols-1 py-10 align-middle md:grid-cols-2 lg:grid-cols-4 gap-8 text-sm">
           {/* Logo Column */}
           <div>
             <Image
@@ -30,55 +31,58 @@ const Footer = () => {
           </div>
 
           {/* About Column */}
-          <div className="pe-5">
-            <h2 className=" text-[23px] font-semibold font-saira  mb-0 ">
-              We GiG Media
-            </h2>
-            <p className=" text-[15px] ff_n font-normal mt-1 mb-0 ">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
-            <p className="font-semibold mt-10 text-[23px]  mb-0 text-black">
-              Get in Touch!
-            </p>
-            <div className="flex align-center gap-10 mt-2">
-              <p className="text-[15px] ff_n font-normal mb-0 ">
-                hello@gigmedia
+          <div className="pe-5 flex flex-col justify-between">
+            <div>
+              <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold">
+                We GiG Media
+              </h4>
+              <p className="text-base max-w-[325px] md:text-lg ff_n font-normal pt-4">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
               </p>
-              <Image src={rightArrow} width={16} height={8} alt="email" />
+            </div>
+            <div>
+              <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold">
+                Get in Touch!
+              </h4>
+              <Link href="/" className="flex items-center max-w-[234px] text-base md:text-lg ff_n font-normal mb-0 gap-6 justify-between mt-2">
+                hello@gigmedia
+                <Icons icon={"redarrow"} />
+              </Link>
             </div>
           </div>
 
           {/* Important Links */}
-          <div>
-            <h3 className="text-lg font-saira text-[23px] font-semibold mb-0  text-black">
+          <div className="md:ps-8">
+            <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold">
               Important Links
-            </h3>
-            <ul className="space-y-1 text-gray-700">
-              <li className="hover:text-red-600 cursor-pointer text-[15px] ff_n font-normal mt-2 mb-0 ">
+            </h4>
+            <div className="flex flex-col gap-4 pt-4">
+              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Home
-              </li>
-              <li className="hover:text-red-600   text-[15px] ff_n font-normal mt-2 mb-0 ">
+              </Link>
+              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 About
-              </li>
-              <li className="hover:text-red-600 cursor-pointer text-[15px] ff_n font-normal mt-2 mb-0 ">
+              </Link>
+              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Latest Video
-              </li>
-              <li className="hover:text-red-600 cursor-pointer text-[15px] ff_n font-normal mt-2 mb-0 ">
+              </Link>
+              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Our Team
-              </li>
-              <li className="hover:text-red-600 cursor-pointer text-[15px] ff_n font-normal mt-2 mb-0 ">
+              </Link>
+              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Help(FAQ)
-              </li>
-              <li className="hover:text-red-600 cursor-pointer text-[15px] ff_n font-normal mt-2 mb-0 ">
+              </Link>
+              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Contact
-              </li>
-            </ul>
+              </Link>
+            </div>
+
           </div>
           <div className="text-sm">
-            <h3 className="text-lg text-[23px] font-semibold mb-0  text-black">
+           <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold text-black">
               Get The App
-            </h3>
+            </h4>
             <div className="flex gap-4 mt-9">
               <img
                 src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://gigmedia.app"
