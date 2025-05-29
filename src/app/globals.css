@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "Saira", sans-serif !important;
+}
+
+
+.ff_n {
+  font-family: "Nunito", sans-serif !important;
+}
+
+.ff_i {
+  font-family: "Inter", serif;
+}
+
+.ff_p {
+  font-family: "Poppins", serif;
+}
+
+.custom_container {
+  max-width: 1312px;
+}
+
+.bg_hero {
+  background-image: url('../../public/images/webp/hero-img.webp');
+  background-size: cover;
+  background-position: top;
+}
