@@ -25,8 +25,8 @@ const NavBar = () => {
         <Icons icon={"menuToggel"} />
       </div>
 
-      {/* <div
-        className={`fixed flex flex-col justify-center items-center top-0 duration-500 w-full h-screen bg-black z-50 ${isOpen ? "right-0" : "-right-full"
+      <div
+        className={`fixed flex flex-col justify-center items-center top-0 duration-500 w-full h-screen bg-[#FFE0E1] z-50 ${isOpen ? "right-0" : "-right-full"
           }`}
       >
         <div
@@ -42,14 +42,14 @@ const NavBar = () => {
               key={i}
               href={obj.url}
               onClick={() => setIsOpen(false)}
-              className={`text-md md:text-lg lg:text-2xl xl:text-3xl font-semibold px-4 py-3.5 rounded-md duration-300 ${isActive ? "text-[#ff0004]" : "text-white hover:text-[#ff0004]"
+              className={`text-md md:text-lg lg:text-2xl xl:text-3xl font-semibold px-4 py-3.5 rounded-md duration-300 ${isActive ? "text-[#ff0004]" : "text-black hover:text-[#ff0004]"
                 }`}
             >
               {obj.title}
             </Link>
           );
         })}
-      </div> */}
+      </div>
     </div>
   );
 };
