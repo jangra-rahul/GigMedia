@@ -11,10 +11,10 @@ const NavBar = () => {
   const pathname = usePathname();
   return (
 
-    <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6 md:pt-7 lg:pt-8">
+    <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6">
       <Link href={"/"}>
         <Image
-          className="w-10 md:w-14 "
+          className="w-10 md:w-12"
           src={"/images/svg/page-logo.svg"}
           height={72}
           width={72}
@@ -25,7 +25,7 @@ const NavBar = () => {
         <Icons icon={"menuToggel"} />
       </div>
 
-      <div
+      {/* <div
         className={`fixed flex flex-col justify-center items-center top-0 duration-500 w-full h-screen bg-black z-50 ${isOpen ? "right-0" : "-right-full"
           }`}
       >
@@ -49,7 +49,7 @@ const NavBar = () => {
             </Link>
           );
         })}
-      </div>
+      </div> */}
     </div>
   );
 };
