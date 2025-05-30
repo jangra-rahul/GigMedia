@@ -1,48 +1,21 @@
 import Image from 'next/image';
 
-const people = [
-    {
-        name: 'Sapna Choudhary',
-        role: 'Haryanvi Singer and Dancer',
-        image: '/images/webp/creative/spana.webp',
-        className: 'row-span-2',
-    },
-    {
-        name: 'Dhanda Noyiwal',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/noyiwala.webp',
-    },
-    {
-        name: 'Pranjal Dhaiya',
-        role: 'Haryanvi Singer and Dancer',
-        image: '/images/webp/creative/pranjal.webp',
-    },
-    {
-        name: '',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/model.webp',
-    },
-    {
-        name: 'Surishty Maan',
-        role: 'Punjabi Model and Dancer',
-        image: '/images/webp/creative/maan.webp',
-        className: 'lg:row-span-2 lg:col-span-2',
-    },
-    {
-        name: 'kd',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/kd.webp',
-    },
 
 
-];
-
-export default function ResponsiveGrid() {
+export default function ResponsiveGrid({title,mapdataAll}) {
     return (
         <div className='bg-white py-14 md:py-16 lg:py-20 xl:pb-[94px]'>
             <div className="max-w-[1310px] mx-auto px-4">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[200px] lg:auto-rows-[250px]">
-                    {people.map((person, index) => (
+                <div className="flex flex-col md:flex-row justify-between pb-12 gap-3 md:gap-10 md:pb-14 lg:pb-16 xl:pb-[68px]">
+                    <p className='text-black max-sm:order-2 text-base max-w-[540px] md:text-lg leading-[140%] ff_n'>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    </p>
+                    <h3 className='max-w-[280px] max-md:order-1 text-nowrap text-2xl md:text-3xl lg:text-[37px] font-bold capitalize'>
+                        {title}
+                    </h3>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[300px] lg:auto-rows-[250px]">
+                    {mapdataAll.map((person, index) => (
                         <div
                             key={index}
                             className={`relative overflow-hidden duration-300 group rounded-xl ${person.className || ''}`}

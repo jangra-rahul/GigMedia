@@ -4,9 +4,11 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Icons from "./Icons";
 import { NAVIGATION_LINK_LIST } from "@/utlis/helper";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
   return (
 
     <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6 md:pt-8 lg:pt-10">
@@ -34,12 +36,14 @@ const NavBar = () => {
           <Icons icon={"cross"} />
         </div>
         {NAVIGATION_LINK_LIST.map((obj, i) => {
+          const isActive = pathname === obj.url;
           return (
             <Link
               key={i}
               href={obj.url}
               onClick={() => setIsOpen(false)}
-              className="text-md md:text-lg lg:text-2xl xl:text-3xl font-semibold px-4 py-2 text-white hover:text-[#ff0004] rounded-md duration-300"
+              className={`text-md md:text-lg lg:text-2xl xl:text-3xl font-semibold px-4 py-2 rounded-md duration-300 ${isActive ? "text-[#ff0004]" : "text-white hover:text-[#ff0004]"
+                }`}
             >
               {obj.title}
             </Link>

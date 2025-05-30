@@ -6,14 +6,14 @@ import PartnersCards from "@/components/common/PartnersCards";
 import ResponsiveGrid from "@/components/common/ResponsiveGrid";
 import Hero from "@/components/creativeconnect/Hero";
 import GigMediaDownload from "@/components/home/GigMediaDownload";
-import React from "react";
+import { MEDIA_HUB_CELEBRITIES_DATA_LIST, MEDIA_HUB_CONNECT_DATA } from "@/utlis/helper";
 
 const page = () => {
   return (
     <div>
-      <Hero />
-      <PartnersCards />
-      <ResponsiveGrid />
+      <Hero title={"Media Hub: Revolutionizing Talent Discovery"} />
+      <PartnersCards mapdata={MEDIA_HUB_CONNECT_DATA} />
+      <ResponsiveGrid title={"Hire Celebrity"} mapdataAll={MEDIA_HUB_CELEBRITIES_DATA_LIST} />
       <ArtistMobile />
       <GigMediaDownload />
       <Faq />
