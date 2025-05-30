@@ -1,7 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
-const CommonPhone = ({ red,  title, image, three }) => {
+const CommonPhone = ({ red, title, image, three, url }) => {
     return (
         <div className={`${red ? "bg-[#FFE0E1]" : "bg-white"} `}>
             <div className="max-w-[1310px] relative mx-auto px-4 py-14 md:py-16 lg:py-20 xl:py-[94px]">
@@ -16,10 +17,10 @@ const CommonPhone = ({ red,  title, image, three }) => {
 
                         </p>
                         <div className={`flex ${red ? "justify-end" : "justify-start"} items-center gap-4`}>
-                            <button className={`border border-[#FF0004] hover:text-white duration-300 hover:bg-[#FF0004] text-[#FF0004] cursor-pointer bg-white rounded-[10px] p-2.5 text-base md:text-lg leading-[150%]
+                            <Link href={url} className={`border border-[#FF0004] hover:text-white duration-300 hover:bg-[#FF0004] text-[#FF0004] cursor-pointer bg-white rounded-[10px] p-2.5 text-base md:text-lg leading-[150%]
                              `}>
-                            Learn More
-                        </button>
+                                Learn More
+                            </Link>
                         </div>
                     </div>
                     <div className={`${red ? "order-1" : "order-2"} flex justify-center`}>

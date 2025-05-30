@@ -11,10 +11,10 @@ const NavBar = () => {
   const pathname = usePathname();
   return (
 
-    <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6 md:pt-8 lg:pt-10">
+    <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6 md:pt-7 lg:pt-8">
       <Link href={"/"}>
         <Image
-          className="w-10 md:w-auto"
+          className="w-10 md:w-14 "
           src={"/images/svg/page-logo.svg"}
           height={72}
           width={72}
@@ -42,7 +42,7 @@ const NavBar = () => {
               key={i}
               href={obj.url}
               onClick={() => setIsOpen(false)}
-              className={`text-md md:text-lg lg:text-2xl xl:text-3xl font-semibold px-4 py-2 rounded-md duration-300 ${isActive ? "text-[#ff0004]" : "text-white hover:text-[#ff0004]"
+              className={`text-md md:text-lg lg:text-2xl xl:text-3xl font-semibold px-4 py-3.5 rounded-md duration-300 ${isActive ? "text-[#ff0004]" : "text-white hover:text-[#ff0004]"
                 }`}
             >
               {obj.title}

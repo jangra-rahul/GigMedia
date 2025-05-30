@@ -19,9 +19,9 @@ export default function Home() {
       <MediaDetails />
       <ImageMedia />
       <OurSolutions />
-      <CommonPhone title="Artist Avenue: Revolutionizing Talent Discovery" image={"/images/webp/artist-phone.webp"} />
-      <CommonPhone title={"Creative Connect: Revolutionizing Talent Discovery"} image={"/images/webp/creative-phone.webp"} red />
-      <CommonPhone title={"Media Hub: Revolutionizing Talent Discovery"} image={"/images/webp/media-dashboard.webp"} three />
+      <CommonPhone url="/artist-avenue" title="Artist Avenue: Revolutionizing Talent Discovery" image={"/images/webp/artist-phone.webp"} />
+      <CommonPhone url="/creative-connect" title={"Creative Connect: Revolutionizing Talent Discovery"} image={"/images/webp/creative-phone.webp"} red />
+      <CommonPhone url="/media-hub" title={"Media Hub: Revolutionizing Talent Discovery"} image={"/images/webp/media-dashboard.webp"} three />
       <PoweringDream />
       <PartnerSlider />
       <Faq />
