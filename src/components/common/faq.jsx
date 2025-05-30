@@ -46,17 +46,11 @@ const Faq = () => {
     return (
         <div className="bg-white py-14 md:py-16 lg:py-20 xl:py-[94px]">
             <div className="max-w-[1310px] mx-auto px-4">
-                <div className="grid grid-cols-1 lg:grid-cols-[38%_60%] xl:grid-cols-2 gap-10 md:gap-6 xl:gap-[60px] items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-[60%_38%] xl:grid-cols-2 gap-10 md:gap-6 xl:gap-[60px] items-center">
 
 
-                    <Image
-                        src="/images/webp/faq-img.webp" // replace with your actual image path
-                        alt="Need Help"
-                        width={600}
-                        height={400}
-                        className="w-full object-cover rounded-lg"
-                    />
-                    <div className="">
+                   
+                    <div className="order-2 lg:order-1">
                         {faqData.map((item, index) => (
                             <div
                                 key={index}
@@ -80,6 +74,15 @@ const Faq = () => {
                                 </div>
                             </div>
                         ))}
+                    </div>
+                    <div className='flex justify-center order-1 lg:order-2'>
+                         <Image
+                        src={"/images/webp/creative/phone.webp"}
+                        alt="Need Help"
+                        width={320}
+                        height={500}
+                        className="w-full max-w-[320px]"
+                    />
                     </div>
                 </div>
             </div>

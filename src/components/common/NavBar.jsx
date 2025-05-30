@@ -8,25 +8,24 @@ import { NAVIGATION_LINK_LIST } from "@/utlis/helper";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="min-h-screen bg_hero">
-      <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6 md:pt-8 lg:pt-10">
-        <Link href={"/"}>
-          <Image
-            className="w-10 md:w-auto"
-            src={"/images/svg/page-logo.svg"}
-            height={72}
-            width={72}
-            alt="page-lgoo"
-          />
-        </Link>
-        <div onClick={() => setIsOpen(true)} className="cursor-pointer">
-          <Icons icon={"menuToggel"} />
-        </div>
+
+    <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6 md:pt-8 lg:pt-10">
+      <Link href={"/"}>
+        <Image
+          className="w-10 md:w-auto"
+          src={"/images/svg/page-logo.svg"}
+          height={72}
+          width={72}
+          alt="page-lgoo"
+        />
+      </Link>
+      <div onClick={() => setIsOpen(true)} className="cursor-pointer">
+        <Icons icon={"menuToggel"} />
       </div>
+
       <div
-        className={`fixed flex justify-center items-center top-0 duration-500 w-full h-screen bg-black z-50 ${
-          isOpen ? "right-0" : "-right-full"
-        }`}
+        className={`fixed flex flex-col justify-center items-center top-0 duration-500 w-full h-screen bg-black z-50 ${isOpen ? "right-0" : "-right-full"
+          }`}
       >
         <div
           onClick={() => setIsOpen(false)}

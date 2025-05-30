@@ -4,6 +4,7 @@ import AboutUs from "@/components/home/AboutUs";
 import CommonPhone from "@/components/home/CommonPhone";
 import Faq from "@/components/home/Faq";
 import GigMediaDownload from "@/components/home/GigMediaDownload";
+import Hero from "@/components/home/Hero";
 import ImageMedia from "@/components/home/ImageMedia";
 import MediaDetails from "@/components/home/MediaDetails";
 import OurSolutions from "@/components/home/OurSolutions";
@@ -13,7 +14,7 @@ import PoweringDream from "@/components/home/PoweringDream";
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <Hero />
       <AboutUs />
       <MediaDetails />
       <ImageMedia />

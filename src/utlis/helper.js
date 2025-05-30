@@ -3,6 +3,18 @@ export const NAVIGATION_LINK_LIST = [
         title: "Home",
         url: "/",
     },
+    {
+        title: "Artist Avenue",
+        url: "/artist-avenue",
+    },
+    {
+        title: "Creative Connect",
+        url: "/creative-connect",
+    },
+    {
+        title: "Media Hub",
+        url: "/media-hub",
+    },
 
 ];
 
@@ -64,5 +76,24 @@ export const PWOERING_DREAM_DATA = [
     {
         image :"/images/svg/growth.svg",
         title:"Upskilling and learning ecosystem inside the app",
+    },
+]
+
+export const CREATIVE_CONNECT_DATA = [
+    {
+        image:'/images/webp/creative/sony.webp',
+        title:'Sony',
+    },
+    {
+        image:'/images/webp/creative/tseries.webp',
+        title:'T-SERIES',
+    },
+    {
+        image:'/images/webp/creative/amazon.webp',
+        title:'Amazon Prime',
+    },
+    {
+        image:'/images/webp/creative/netflix.webp',
+        title:'Netflix',
     },
 ]
