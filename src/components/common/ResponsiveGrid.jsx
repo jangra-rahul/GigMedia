@@ -31,7 +31,7 @@ export default function ResponsiveGrid({title,mapdataAll}) {
                             <div
                                 className={`absolute z-30 scale-0 group-hover:scale-100 duration-300 bottom-0 w-full p-3 text-white `}
                             >
-                                <p className="text-lg md:text-xl lg:text-2xl font-extrabold leading-[140%]">{person.name}</p>
+                                <p className="text-lg md:text-xl ff_n lg:text-2xl font-extrabold leading-[140%]">{person.name}</p>
                                 <p className="text-base text-white leading-[190%] ff_i">{person.role}</p>
                             </div>
 
