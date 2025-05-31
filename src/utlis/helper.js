@@ -135,112 +135,302 @@ export const ARTIST_CONNECT_DATA = [
 ]
 
 
-
 export const CREATIVE_CELEBRITIES_DATA_LIST = [
     {
-        name: 'Sapna Choudhary',
-        role: 'Haryanvi Singer and Dancer',
-        image: '/images/webp/creative/spana.webp',
         className: 'row-span-2',
+        image: [
+            {
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/creative/spana.webp',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+        ],
+
     },
     {
-        name: 'Dhanda Noyiwal',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/noyiwala.webp',
+        image: [
+            {
+                img: '/images/webp/creative/aishwarya.webp',
+                name: 'Aishwarya',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+        ],
     },
     {
-        name: 'Pranjal Dhaiya',
-        role: 'Haryanvi Singer and Dancer',
-        image: '/images/webp/creative/pranjal.webp',
+        image: [
+            {
+                img: '/images/webp/creative/pranjal.webp',
+                name: 'Pranjal Dhaiya',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/creative/spana.webp',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+        ],
     },
     {
-        name: '',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/model.webp',
+        image: [
+            {
+                img: '/images/webp/creative/model.webp',
+                name: '',
+                role: 'Haryanvi Singer',
+            },
+            {
+                img: '/images/webp/creative/pranjal.webp',
+                name: 'Pranjal Dhaiya',
+                role: 'Haryanvi Singer and Dancer',
+            },
+        ],
     },
     {
-        name: 'Surishty Maan',
-        role: 'Punjabi Model and Dancer',
-        image: '/images/webp/creative/maan.webp',
+        image: [
+            {
+                name: 'Surishty Maan',
+                role: 'Punjabi Model and Dancer',
+                img: '/images/webp/creative/maan.webp',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+        ],
         className: 'lg:row-span-2 lg:col-span-2',
     },
     {
-        name: 'kd',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/kd.webp',
+        image: [
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+        ],
     },
-
-
-];
-export const ARTIST_CELEBRITIES_DATA_LIST = [
-    {
-        name: 'Aishwarya',
-        role: 'Bollywood Actor, Model',
-        image: '/images/webp/creative/aishwarya.webp',
-        className: 'row-span-2',
-    },
-    {
-        name: 'Dhanda Noyiwal',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/noyiwala.webp',
-    },
-    {
-        name: 'Pranjal Dhaiya',
-        role: 'Haryanvi Singer and Dancer',
-        image: '/images/webp/creative/pranjal.webp',
-    },
-    {
-        name: '',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/model.webp',
-    },
-    {
-        name: 'Kishor Kumar',
-        role: 'Bollywood Actor, Model',
-        image: '/images/webp/creative/kishore.webp',
-        className: 'lg:row-span-2 lg:col-span-2',
-    },
-    {
-        name: 'kd',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/kd.webp',
-    },
-
-
 ];
 export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
-     {
-        name: 'Aishwarya',
-        role: 'Bollywood Actor, Model',
-        image: '/images/webp/creative/aishwarya.webp',
+    {
         className: 'row-span-2',
+        image: [
+            {
+                img: '/images/webp/creative/aishwarya.webp',
+                name: 'Aishwarya',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+        ],
+
     },
     {
-        name: 'Dhanda Noyiwal',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/noyiwala.webp',
+        image: [
+            {
+                img: '/images/webp/creative/aishwarya.webp',
+                name: 'Aishwarya',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+        ],
     },
     {
-        name: 'Pranjal Dhaiya',
-        role: 'Haryanvi Singer and Dancer',
-        image: '/images/webp/creative/pranjal.webp',
+        image: [
+            {
+                img: '/images/webp/creative/pranjal.webp',
+                name: 'Pranjal Dhaiya',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+        ],
     },
     {
-        name: '',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/model.webp',
+        image: [
+            {
+                img: '/images/webp/creative/model.webp',
+                name: '',
+                role: 'Haryanvi Singer',
+            },
+            {
+                img: '/images/webp/creative/pranjal.webp',
+                name: 'Pranjal Dhaiya',
+                role: 'Haryanvi Singer and Dancer',
+            },
+        ],
     },
     {
-        name: 'Preity Zinta',
-        role: 'Bollywood Actor, Model',
-        image: '/images/webp/creative/pritijinta.webp',
+        image: [
+            {
+                img: '/images/webp/creative/kishore.webp',
+                name: 'Kishor Kumar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+        ],
         className: 'lg:row-span-2 lg:col-span-2',
     },
     {
-        name: 'kd',
-        role: 'Haryanvi Singer',
-        image: '/images/webp/creative/kd.webp',
+        image: [
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+        ],
     },
+];
 
+export const ARTIST_CELEBRITIES_DATA_LIST = [
+    {
+        className: 'row-span-2',
+        image: [
+            {
+                img: '/images/webp/creative/aishwarya.webp',
+                name: 'Aishwarya',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/creative/spana.webp',
+            },
+        ],
 
+    },
+    {
+        image: [
+            {
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/creative/spana.webp',
+            },
+            {
+                img: '/images/webp/creative/aishwarya.webp',
+                name: 'Aishwarya',
+                role: 'Bollywood Actor, Model',
+            },
+
+        ],
+    },
+    {
+        image: [
+            {
+                img: '/images/webp/creative/pranjal.webp',
+                name: 'Pranjal Dhaiya',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+        ],
+    },
+    {
+        image: [
+            {
+                img: '/images/webp/creative/model.webp',
+                name: '',
+                role: 'Haryanvi Singer',
+            },
+            {
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/creative/spana.webp',
+            },
+        ],
+    },
+    {
+        image: [
+            {
+                img: '/images/webp/creative/kishore.webp',
+                name: 'Kishor Kumar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+        ],
+        className: 'lg:row-span-2 lg:col-span-2',
+    },
+    {
+        image: [
+            {
+                img: '/images/webp/creative/kd.webp',
+                name: 'kd',
+                role: 'Haryanvi Singer',
+            },
+            {
+                name: 'Dhanda Noyiwal',
+                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/noyiwala.webp',
+            },
+        ],
+    },
 ];

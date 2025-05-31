@@ -12,23 +12,24 @@ import Faq from "../common/faq";
 import Footer from "../common/Footer";
 
 const MediaHub = () => {
-  useEffect(() => {
-      Aos.init({
-        duration: 800, // animation duration
-        once: true,     // only animate once
-      });
+    useEffect(() => {
+        Aos.init({
+            duration: 800, // animation duration
+            once: true,     // only animate once
+        });
     }, []);
-  return (
-    <div>
-      <Hero title={"Media Hub: Revolutionizing Talent Discovery"} />
-      <PartnersCards mapdata={MEDIA_HUB_CONNECT_DATA} />
-      <ResponsiveGrid title={"Hire Celebrity"} mapdataAll={MEDIA_HUB_CELEBRITIES_DATA_LIST} />
-      <ArtistMobile />
-      <GigMediaDownload />
-      <Faq />
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Hero title={"Media Hub: Revolutionizing Talent Discovery"} />
+            <PartnersCards mapdata={MEDIA_HUB_CONNECT_DATA} />
+            <ResponsiveGrid title={"Hire Celebrity"} mapdataAll={MEDIA_HUB_CELEBRITIES_DATA_LIST} />
+            <ArtistMobile />
+            <GigMediaDownload />
+            <Faq />
+            <Footer
+            />
+        </div>
+    );
 };
 
 

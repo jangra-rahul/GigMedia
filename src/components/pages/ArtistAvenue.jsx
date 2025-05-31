@@ -13,23 +13,23 @@ import Hero from "../creativeconnect/Hero";
 import GigMediaDownload from "../home/GigMediaDownload";
 
 const ArtistAvenue = () => {
-  useEffect(() => {
-      Aos.init({
-        duration: 800, 
-        once: true, 
-      });
+    useEffect(() => {
+        Aos.init({
+            duration: 800,
+            once: true,
+        });
     }, []);
-  return (
-    <div>
-      <Hero title={"artist association: Revolutionizing Talent Discovery"} />
-      <PartnersCards mapdata={ARTIST_CONNECT_DATA} />
-      <ResponsiveGrid title={"Featured artist"} mapdataAll={ARTIST_CELEBRITIES_DATA_LIST} />
-      <ArtistMobile />
-      <GigMediaDownload />
-      <Faq />
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Hero title={"artist association: Revolutionizing Talent Discovery"} />
+            <PartnersCards mapdata={ARTIST_CONNECT_DATA} />
+            <ResponsiveGrid title={"Featured artist"} mapdataAll={ARTIST_CELEBRITIES_DATA_LIST} />
+            <ArtistMobile />
+            <GigMediaDownload />
+            <Faq />
+            <Footer />
+        </div>
+    );
 };
 
 
