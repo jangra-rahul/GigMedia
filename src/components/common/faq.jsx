@@ -6,38 +6,44 @@ import Icons from '../common/Icons';
 const faqData = [
     {
         question: 'How Do I Register As A Professional?',
-        answer: 'You can register by filling out a short form on the GIG Media app or website.'
+        answer: 'You can register by filling out a short form on the GIG Media app or website.',
+        image: "/images/webp/creative/phone.webp",
     },
     {
         question: 'Can I Upskill While Working?',
-        answer: 'Yes! GIG Media offers EdTech 2.0 programs that you can complete while working.'
+        answer: 'Yes! GIG Media offers EdTech 2.0 programs that you can complete while working.',
+        image: "/images/webp/phone-three.webp",
     },
     {
         question: 'How Does GIG Media Help Agencies Grow?',
         answer:
-            'The app offers a rating-based hiring system, enabling users to find and connect with top-rated talent in real time. This makes the hiring process faster, transparent, and more efficient.'
+            'The app offers a rating-based hiring system, enabling users to find and connect with top-rated talent in real time. This makes the hiring process faster, transparent, and more efficient.',
+        image: "/images/webp/phone-two.webp",
     },
     {
         question: 'Is There A Fee For Registration?',
-        answer: 'No, registration on GIG Media is completely free for professionals.'
+        answer: 'No, registration on GIG Media is completely free for professionals.',
+        image: "/images/webp/creative/phone.webp",
     },
     {
         question: 'How Long Does The Registration Process Take?',
-        answer: 'It usually takes less than 5 minutes to complete your profile and get started.'
+        answer: 'It usually takes less than 5 minutes to complete your profile and get started.',
+        image:"/images/webp/phone-three.webp",
     },
     {
         question: 'Is GIG Media Open For Investors?',
-        answer: 'Yes, GIG Media is open for strategic investors. Reach out via our contact page.'
+        answer: 'Yes, GIG Media is open for strategic investors. Reach out via our contact page.',
+        image: "/images/webp/phone-one.webp",
     },
     {
         question: 'What Are The Eligibility Criteria For Registration?',
-        answer: 'Anyone with skills and relevant experience in media, art, or related fields can register.'
+        answer: 'Anyone with skills and relevant experience in media, art, or related fields can register.',
+        image: "/images/webp/creative/phone.webp",
     }
 ];
 
 const Faq = () => {
-    const [activeIndex, setActiveIndex] = useState(faqData.length > 0 ? 0 : null);
-
+    const [activeIndex, setActiveIndex] = useState(0);
 
     const toggleFAQ = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
@@ -47,10 +53,8 @@ const Faq = () => {
         <div className="bg-white py-14 md:py-16 lg:py-20 xl:py-[94px]">
             <div className="max-w-[1310px] mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-[60%_38%] xl:grid-cols-2 gap-10 md:gap-6 xl:gap-[60px] items-center">
-
-
-                   
-                    <div className="order-2 lg:order-1">
+                    {/* Left Side: FAQ List */}
+                    <div data-aos="fade-right" className="order-2 lg:order-1">
                         {faqData.map((item, index) => (
                             <div
                                 key={index}
@@ -75,14 +79,16 @@ const Faq = () => {
                             </div>
                         ))}
                     </div>
-                    <div className='flex justify-center order-1 lg:order-2'>
-                         <Image
-                        src={"/images/webp/creative/phone.webp"}
-                        alt="Need Help"
-                        width={320}
-                        height={500}
-                        className="w-full max-w-[320px]"
-                    />
+
+                    {/* Right Side: Dynamic Image */}
+                    <div data-aos="fade-left" className='flex justify-center order-1 lg:order-2'>
+                        <Image
+                            src={faqData[activeIndex]?.image || "/images/webp/creative/phone.webp"}
+                            alt="Need Help"
+                            width={320}
+                            height={500}
+                            className="w-full max-w-[320px] transition-all duration-500 ease-in-out"
+                        />
                     </div>
                 </div>
             </div>

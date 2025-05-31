@@ -49,16 +49,17 @@ const Faq = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-[38%_60%] xl:grid-cols-2 gap-10 md:gap-6 xl:gap-[60px] items-center">
 
 
-                    <Image
+                    <Image data-aos="fade-up-right"
                         src="/images/webp/faq-img.webp" // replace with your actual image path
                         alt="Need Help"
                         width={600}
                         height={400}
                         className="w-full object-cover rounded-lg"
                     />
-                    <div className="">
+                    <div data-aos="fade-up-left" className="">
                         {faqData.map((item, index) => (
                             <div
+                                
                                 key={index}
                                 className={`transition-all duration-300 ease-in-out mb-3 xl:mb-5 rounded-[10px] overflow-hidden ${activeIndex === index ? 'bg-[#FF0004] text-white' : 'bg-white text-black'
                                     }`}

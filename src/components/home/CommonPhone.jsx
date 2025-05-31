@@ -1,12 +1,13 @@
 'use client';
-
 import React, { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules'; // ✅ Only once
+
 import 'swiper/css';
 import 'swiper/css/navigation';
+
 
 const phoneImages = [
     '/images/webp/phone-one.webp',
@@ -31,13 +32,13 @@ const CommonPhone = ({ red, title, three, url }) => {
                 <Image className={`absolute max-w-[472px] w-full ${three ? "top-[60px]" : "top-9"} ${red ? "right-0" : "left-0"}`} src={`${red ? "/images/webp/common-two.webp" : three ? "/images/webp/common-third.webp" : "/images/webp/common-one.webp"}`} alt='common' height={472} width={472} />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-24 items-center">
                     <div className={`relative z-30 ${red ? 'order-2 lg:max-w-[602px]' : 'order-2 lg:max-w-[572px]'}`}>
-                        <h3 className={`text-black font-bold text-2xl md:text-3xl lg:text-[37px] leading-[122%] pb-2 ${red ? 'text-end max-w-[600px]' : 'text-left'}`}>
+                        <h3 data-aos="fade-up-right" data-aos-duration="800" className={`text-black font-bold text-2xl md:text-3xl lg:text-[37px] leading-[122%] pb-2 ${red ? 'text-end max-w-[600px]' : 'text-left'}`}>
                             {title}
                         </h3>
-                        <p className={`text-black ff_n text-base md:text-lg leading-[150%] pb-[30px] ${red ? 'text-end max-w-[500px] ms-auto' : 'text-left'}`}>
+                        <p data-aos="fade-up-right" data-aos-duration="1100" className={`text-black ff_n text-base md:text-lg leading-[150%] pb-[30px] ${red ? 'text-end max-w-[500px] ms-auto' : 'text-left'}`}>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
-                        <div className={`flex ${red ? 'justify-end' : 'justify-start'} items-center gap-4`}>
+                        <div data-aos="fade-up-right" data-aos-duration="1400" className={`flex ${red ? 'justify-end' : 'justify-start'} items-center gap-4`}>
                             <Link
                                 href={url}
                                 className="border border-[#FF0004] hover:text-white duration-300 hover:bg-[#FF0004] text-[#FF0004] cursor-pointer bg-white rounded-[10px] p-2.5 text-base md:text-lg leading-[150%]"
@@ -46,20 +47,23 @@ const CommonPhone = ({ red, title, three, url }) => {
                             </Link>
                         </div>
                     </div>
-
-                    {/* Swiper Section */}
-                    {/* Swiper Section */}
                     <div className={`${red ? 'order-1' : 'order-2'} flex flex-col items-center`}>
                         <Swiper
-                            modules={[Navigation]}
+                            modules={[Navigation, Autoplay]}
                             spaceBetween={4}
                             slidesPerView={3}
-                            loop={true}
+                            loop={true} // ✅ This is the fix
+                            speed={600}
+                            autoplay={{
+                                delay: 1500,
+                                disableOnInteraction: false,
+                            }}
                             onSwiper={(swiper) => (swiperRef.current = swiper)}
                             onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
                             className="w-full max-w-[700px]"
-                            dir={red ? 'rtl' : 'ltr'} // 🔁 direction control
+                            dir={red ? 'rtl' : 'ltr'}
                         >
+
                             {phoneImages.map((src, index) => {
                                 const totalSlides = phoneImages.length;
                                 const getRealIndex = (offset) =>

@@ -10,7 +10,7 @@ const PartnersCards = ({ mapdata, text }) => {
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-16 md:pt-20 lg:pt-24 xl:pt-[100px]">
                     {mapdata.map((obj, i) => {
                         return (
-                            <div key={i} className='bg-white rounded-xl overflow-clip'>
+                            <div data-aos="flip-left" data-aos-duration={800 + i * 400} key={i} className='bg-white rounded-xl overflow-clip'>
                                 <Image src={obj.image} alt='sony' width={310} height={338} />
                                 <div className='bg-[#FF0004] h-full py-3 px-2.5'>
                                     <p className={`text-white ff_n ${text ? "text-base md:text-lg lg:text-xl xl:text-[21px] font-extrabold" : "text-base font-bold"} leading-[150%]`}>{obj.title}</p>

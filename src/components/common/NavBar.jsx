@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Icons from "./Icons";
 import { NAVIGATION_LINK_LIST } from "@/utlis/helper";
 import { usePathname } from "next/navigation";
@@ -9,6 +9,18 @@ import { usePathname } from "next/navigation";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isOpen]);
+
   return (
 
     <div className="max-w-[1410px] mx-auto px-4 flex justify-between items-center pt-6">
