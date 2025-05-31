@@ -124,7 +124,7 @@ const CommonPhone = ({ red, title, three, url }) => {
                                             swiperRef.current.slideToLoop(idx);
                                         }
                                     }}
-                                    className={`w-3 h-3 rounded-full transition-all duration-300 ${idx === activeIndex ? 'bg-[#FF0004]' : 'bg-gray-300'
+                                    className={`w-3 h-3 rounded-full transition-all duration-300 ${idx === activeIndex ? 'bg-[#FF0004]' : red ? "bg-white" : 'bg-[#FFE0E1]'
                                         }`}
                                 ></button>
                             ))}

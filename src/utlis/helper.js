@@ -96,6 +96,38 @@ export const CREATIVE_CONNECT_DATA = [
         image: '/images/webp/creative/netflix.webp',
         title: 'Netflix',
     },
+    {
+        image: '/images/webp/creative/cintaa.webp',
+        title: 'Cine & TV Artistes’ Association',
+    },
+    {
+        image: '/images/webp/creative/imppa.webp',
+        title: 'Indian Motion Picture Producers’ Association',
+    },
+    {
+        image: '/images/webp/creative/fwice.webp',
+        title: 'Federation of Western India Cine Employees',
+    },
+    {
+        image: '/images/webp/creative/iftda.webp',
+        title: 'Indian Film & Television Directors’ Association',
+    },
+    {
+        image: '/images/webp/creative/cintaa.webp',
+        title: 'Cine & TV Artistes’ Association',
+    },
+    {
+        image: '/images/webp/creative/imppa.webp',
+        title: 'Indian Motion Picture Producers’ Association',
+    },
+    {
+        image: '/images/webp/creative/fwice.webp',
+        title: 'Federation of Western India Cine Employees',
+    },
+    {
+        image: '/images/webp/creative/iftda.webp',
+        title: 'Indian Film & Television Directors’ Association',
+    },
 ]
 export const MEDIA_HUB_CONNECT_DATA = [
     {
