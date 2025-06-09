@@ -43,20 +43,24 @@ export const MEDIA_DETAILS_DATA_LIST = [
 
 export const OUR_SOLUTION_DATA = [
     {
-        title: "Artists",
-        discrpition: "Verified jobs, skill-based discovery, faster gigs",
+        title: "For Media Professionals",
+        discrpition: "Verified profiles, smart gigs, real-time jobs, instant discovery, direct access",
+        image: "/images/webp/home/media_professionals.webp",
     },
     {
-        title: "Agencies",
-        discrpition: "Verified jobs, skill-based discovery, faster gigs",
+        title: "For Media Agencies",
+        discrpition: "Talent pool, rating-based hiring, casting tools, collaboration suite, agency showcase, client finder",
+        image: "/images/webp/home/media_agencies.webp",
     },
     {
-        title: "Celebrities",
-        discrpition: "Verified jobs, skill-based discovery, faster gigs",
+        title: "For Corporates & Brands",
+        discrpition: "Creative marketplace, corporate-ready professionals, pitch-ready agencies, budget filters, instant briefs, tailored campaigns",
+        image: "/images/webp/home/corporates_brands.webp",
     },
     {
-        title: "Corporates",
-        discrpition: "Verified jobs, skill-based discovery, faster gigs",
+        title: "For Clients & General Public",
+        discrpition: "One-stop solution for marketing, events, campaigns; celebrity booking, end-to-end creative execution",
+        image: "/images/webp/home/clients_general_public.webp",
     },
 ]
 

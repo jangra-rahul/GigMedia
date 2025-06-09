@@ -19,10 +19,15 @@ const CreativeConnect = () => {
         });
     }, []);
     return (
-        <div>
-            <Hero title={"Creative Connect: Revolutionizing Talent Discovery"} />
+        <div className="overflow-clip">
+            <Hero
+                title={"Creative Connect: Powering India’s Creative Supply Chain"}
+                description={"Agency network, project collaboration, smart hiring tools, talent discovery, campaign pitching, production workflow, vendor ecosystem, casting integration, cross-agency synergy"}
+            />
             <PartnersCards mapdata={CREATIVE_CONNECT_DATA} text />
-            <ResponsiveGrid title={"Featured celebrity"} mapdataAll={CREATIVE_CELEBRITIES_DATA_LIST} />
+            <ResponsiveGrid
+                description={"Meet our talented artists — photographers, editors, performers, and creators — getting real gigs through the GigMedia platform every day."}
+                title={"Agencies"} mapdataAll={CREATIVE_CELEBRITIES_DATA_LIST} />
             <ArtistMobile />
             <GigMediaDownload />
             <Faq />

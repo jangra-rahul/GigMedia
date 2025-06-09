@@ -2,18 +2,11 @@ import { OUR_SOLUTION_DATA } from '@/utlis/helper';
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-const solutionImages = [
-  "/images/webp/solution-girl.webp",
-  "/images/webp/about-us-girl.webp",
-  "/images/webp/believe.webp",
-  "/images/webp/hero-img.webp",
-];
+
 
 const OurSolutions = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
-const [lastHoveredIndex, setLastHoveredIndex] = useState(0);
-
-
+  const [lastHoveredIndex, setLastHoveredIndex] = useState(0);
 
   return (
     <div className='bg-[#FFE0E1] py-14 md:py-16 lg:py-20 xl:py-[94px]'>
@@ -21,8 +14,11 @@ const [lastHoveredIndex, setLastHoveredIndex] = useState(0);
         <h2 data-aos="zoom-in" className="ff_s font-bold text-4xl text-center md:text-5xl lg:text-[56px] text-[#FF0004]">
           Our Solutions
         </h2>
-        <p data-aos="zoom-in" data-aos-duration='1200' className='text-base md:text-lg text-center leading-[130%] lg:text-xl xl:text-[21px] text-black py-7 md:py-8 lg:py-9'>
-          Powered by in-house talent trained across AVGC-XR disciplines, we don’t just deliver content—we deliver creatiTailored Solutions for Every Player in the Media Ecosystemve power at scale.
+        <p data-aos="zoom-in" data-aos-duration='1200' className='text-base max-w-[1000px] mx-auto md:text-lg text-center leading-[130%] lg:text-xl xl:text-[21px] text-black py-7 md:py-8 lg:py-9'>
+          Gig Media unifies the fragmented media industry—connecting talent, agencies, associations, and corporates on one intelligent platform. 
+          It streamlines discovery, hiring, and collaboration—solving chaos with structure,
+          and replacing gatekeeping with access. The ecosystem now has an engine.
+          {/* Powered by in-house talent trained across AVGC-XR disciplines, we don’t just deliver content—we deliver creatiTailored Solutions for Every Player in the Media Ecosystemve power at scale. */}
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-10 xl:gap-[60px] items-center">
@@ -42,14 +38,14 @@ const [lastHoveredIndex, setLastHoveredIndex] = useState(0);
               >
                 <div className='relative'>
                   <Image
-                    className='transition-opacity duration-300 group-hover:opacity-0'
+                    className='transition-opacity duration-300 h-12 max-w-12 group-hover:opacity-0'
                     width={52}
                     height={52}
                     src={"/images/webp/dark-tick.webp"}
                     alt='dark-tick'
                   />
                   <Image
-                    className='absolute top-0 left-0 z-40 scale-0 group-hover:scale-100 transition-transform duration-300'
+                    className='absolute top-0 left-0 z-40 scale-0 h-12 max-w-12 group-hover:scale-100 transition-transform duration-300'
                     width={52}
                     height={52}
                     src={"/images/webp/green-tick.webp"}
@@ -60,7 +56,7 @@ const [lastHoveredIndex, setLastHoveredIndex] = useState(0);
                   <h4 className='text-black/65 group-hover:text-white/100 duration-300 text-lg md:text-xl lg:text-2xl leading-[170%] font-bold'>
                     {obj.title}
                   </h4>
-                  <p className='leading-[170%] ff_n group-hover:text-white/100 duration-300 text-base md:text-lg text-black/65'>
+                  <p className='leading-[120%] ff_n group-hover:text-white/100 duration-300 text-base text-black/65'>
                     {obj.discrpition}
                   </p>
                 </div>
@@ -70,12 +66,12 @@ const [lastHoveredIndex, setLastHoveredIndex] = useState(0);
 
           {/* Image Preview */}
           <div className='order-1 lg:order-2 relative w-full h-[458px] rounded-xl overflow-hidden' data-aos="fade-up-left">
-            {solutionImages.map((src, idx) => {
+            {OUR_SOLUTION_DATA.map((data, idx) => {
               const isVisible = hoveredIndex === idx || (hoveredIndex === null && lastHoveredIndex === idx);
               return (
                 <Image
                   key={idx}
-                  src={src}
+                  src={data.image}
                   alt={`solution image ${idx}`}
                   fill
                   className={`absolute top-0 left-0 w-full h-full object-cover rounded-xl transition-opacity duration-500 ease-in-out

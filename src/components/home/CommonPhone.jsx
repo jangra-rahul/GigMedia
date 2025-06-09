@@ -16,7 +16,7 @@ const phoneImages = [
     '/images/webp/phone-one.webp',
 ];
 
-const CommonPhone = ({ red, title, three, url }) => {
+const CommonPhone = ({ red, title, three, url ,desc}) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const swiperRef = useRef(null);
 
@@ -36,7 +36,7 @@ const CommonPhone = ({ red, title, three, url }) => {
                             {title}
                         </h3>
                         <p data-aos="fade-up-right" data-aos-duration="1100" className={`text-black ff_n text-base md:text-lg leading-[150%] pb-[30px] ${red ? 'text-end max-w-[500px] ms-auto' : 'text-left'}`}>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+{desc}
                         </p>
                         <div data-aos="fade-up-right" data-aos-duration="1400" className={`flex ${red ? 'justify-end' : 'justify-start'} items-center gap-4`}>
                             <Link

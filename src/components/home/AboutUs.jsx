@@ -6,9 +6,10 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 
 const imageSlides = [
-    '/images/webp/about-us-girl.webp',
-    '/images/webp/hero-img.webp',
-    '/images/webp/solution-girl.webp'
+    '/images/webp/home/about_one.webp',
+    '/images/webp/home/about_two.webp',
+    '/images/webp/home/about_three.webp',
+    '/images/webp/home/about_four.webp',
 ];
 
 const AboutUs = () => {
@@ -22,17 +23,14 @@ const AboutUs = () => {
                 </div>
                 <div data-aos="zoom-in" className="bg-white shadow p-6 md:p-8 lg:p-6 xl:p-9 lg:w-11/12 flex flex-col lg:flex-row items-center gap-6 xl:gap-[60px] w-full">
                     <p className="text-base order-2 lg:order-1 md:text-lg text-justify text-black/65 ff_n leading-[166%]">
-                        Organizing Creativity. Empowering Growth.<br />
-                        "GIG Media is India's first full-spectrum media aggregation platform, combining
-                        skill-based hiring, media business generation, EdTech 2.0 upskilling, celebrity
-                        bookings, and regional event management under one ecosystem. We empower artists,
-                        agencies, corporates, and creative entrepreneurs to unlock their true potential.
-                        Organizing Creativity. Empowering Growth."
-                        <br />
-                        "GIG Media is India's first full-spectrum media aggregation platform, combining
-                        skill-based hiring, media business generation, EdTech 2.0 upskilling, celebrity
-                        bookings, and regional event management under one ecosystem. We empower artists,
-                        agencies, corporates, and creative entrepreneurs to unlock their true potential."
+                        Gig Media is the operating system of India’s Orange Economy —
+                        a launchpad for creative commerce and collaboration. We bring together media professionals, agencies,
+                        artist associations, and corporates into a seamless, tech-enabled ecosystem. From discovery
+                        and networking to business generation and upskilling, Gig Media empowers every stakeholder in the media
+                        value chain. Built for scale, designed for impact — we’re fuelling India’s creative engine with infrastructure,
+                        intelligence, and innovation. Not just an app, but a movement —
+                        Gig Media powers a million media ambitions, enabling the next generation of storytellers, creators,
+                        and entrepreneurs to thrive in a fast-evolving digital economy.
                     </p>
                     <div className="order-1 lg:order-2 w-full max-w-[230px] h-[277px]">
                         <Swiper

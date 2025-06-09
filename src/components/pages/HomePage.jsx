@@ -28,9 +28,9 @@ const HomePage = () => {
             <MediaDetails />
             <ImageMedia />
             <OurSolutions />
-            <CommonPhone url="/artist-avenue" title="Artist Avenue: Revolutionizing Talent Discovery" image={"/images/webp/artist-phone.webp"} />
-            <CommonPhone url="/creative-connect" title={"Creative Connect: Revolutionizing Talent Discovery"} image={"/images/webp/creative-phone.webp"} red />
-            <CommonPhone url="/media-hub" title={"Media Hub: Revolutionizing Talent Discovery"} image={"/images/webp/media-dashboard.webp"} three />
+            <CommonPhone url="/artist-avenue" title="Artist Avenue: Revolutionizing Talent Discovery" image={"/images/webp/artist-phone.webp"} desc="Real-time gigs, verified profiles, audition alerts, skill-based hiring, rating system, direct access, multi-association sync, portfolio showcase, job hunter mode" />
+            <CommonPhone url="/creative-connect" title={"Creative Connect: Powering India’s Creative Supply Chain"} image={"/images/webp/creative-phone.webp"} desc="Agency network, project collaboration, smart hiring tools, talent discovery, campaign pitching, production workflow, vendor ecosystem, casting integration, cross-agency synergy" red />
+            <CommonPhone url="/media-hub" title={"Media Hub: Your Gateway to the Orange Economy"} image={"/images/webp/media-dashboard.webp"} desc="Corporate dashboard, agency finder, celebrity booking, campaign builder, creative services, media planning, budget filters, real-time execution, PR solutions, production outsourcing" three />
             <PoweringDream />
             <PartnerSlider />
             <Faq />

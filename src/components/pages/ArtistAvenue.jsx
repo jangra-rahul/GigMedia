@@ -20,10 +20,12 @@ const ArtistAvenue = () => {
         });
     }, []);
     return (
-        <div>
-            <Hero title={"artist association: Revolutionizing Talent Discovery"} />
+        <div className="overflow-clip">
+            <Hero title={"Artist Avenue: Revolutionizing Talent Discovery"} description="Real-time gigs, verified profiles, audition alerts, skill-based hiring, rating system, direct access, multi-association sync, portfolio showcase, job hunter mode" />
             <PartnersCards mapdata={ARTIST_CONNECT_DATA} />
-            <ResponsiveGrid title={"Featured artist"} mapdataAll={ARTIST_CELEBRITIES_DATA_LIST} />
+            <ResponsiveGrid
+                description="Meet our talented artists — photographers, editors, performers, and creators — getting real gigs through the GigMedia platform every day."
+                title={"Featured artist"} mapdataAll={ARTIST_CELEBRITIES_DATA_LIST} />
             <ArtistMobile />
             <GigMediaDownload />
             <Faq />

@@ -50,7 +50,7 @@ const Faq = () => {
 
 
                     <Image data-aos="fade-up-right"
-                        src="/images/webp/faq-img.webp" // replace with your actual image path
+                        src="/images/webp/home/faq_img.webp"
                         alt="Need Help"
                         width={600}
                         height={400}

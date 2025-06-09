@@ -5,13 +5,13 @@ import { Autoplay, EffectFlip } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-flip';
 
-const ResponsiveGrid = ({ title, mapdataAll }) => {
+const ResponsiveGrid = ({ title, description, mapdataAll }) => {
     return (
         <div className='bg-white py-14 md:py-16 lg:py-20 xl:pb-[94px]'>
             <div className="max-w-[1310px] mx-auto px-4">
-                <div  className="flex flex-col md:flex-row justify-between pb-12 gap-3 md:gap-10 md:pb-14 lg:pb-16 xl:pb-[68px]">
-                    <p data-aos="fade-right" className='text-black max-sm:order-2 text-base max-w-[540px] md:text-lg leading-[140%] ff_n'>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                <div className="flex flex-col md:flex-row justify-between pb-12 gap-3 md:gap-10 md:pb-14 lg:pb-16 xl:pb-[68px]">
+                    <p data-aos="fade-right" className='text-black max-sm:order-2 text-base max-w-[560px] md:text-lg leading-[140%] ff_n'>
+                        {description}
                     </p>
                     <h3 data-aos="fade-left" className='max-w-[280px] max-md:order-1 text-nowrap text-2xl md:text-3xl lg:text-[37px] font-bold capitalize'>
                         {title}
