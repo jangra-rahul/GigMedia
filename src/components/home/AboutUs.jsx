@@ -14,7 +14,7 @@ const imageSlides = [
 
 const AboutUs = () => {
     return (
-        <section className="bg-[#FFD9D9] py-14 md:py-16 lg:py-20 xl:py-[94px]">
+        <section id='about' className="bg-[#FFD9D9] py-14 md:py-16 lg:py-20 xl:py-[94px]">
             <div className="max-w-[1440px] px-4 xl:pe-0 mx-auto flex flex-col lg:flex-row items-center lg:gap-6 xl:gap-[60px]">
                 <div data-aos="fade-right" className="relative flex justify-center lg:justify-start lg:w-1/12 w-full">
                     <h2 className="ff_s pb-6 md:pb-8 lg:pb-0 font-bold text-4xl md:text-5xl lg:text-[56px] text-[#FF0004] lg:rotate-[-90deg] lg:-translate-x-20 xl:-translate-x-10 origin-center whitespace-nowrap">

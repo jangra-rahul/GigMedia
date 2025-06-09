@@ -64,7 +64,7 @@ const Faq = () => {
     const activeItem = faqData[activeIndex];
 
     return (
-        <div className="bg-white py-14 md:py-16 lg:py-20 xl:py-[94px]">
+        <section id='faqs' className="bg-white py-14 md:py-16 lg:py-20 xl:py-[94px]">
             <div className="max-w-[1310px] mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-[60%_38%] xl:grid-cols-2 gap-10 md:gap-6 xl:gap-[60px] items-center">
 
@@ -122,7 +122,7 @@ const Faq = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

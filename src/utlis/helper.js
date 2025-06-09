@@ -21,22 +21,22 @@ export const NAVIGATION_LINK_LIST = [
 export const MEDIA_DETAILS_DATA_LIST = [
     {
         title: "10,000+ ",
-        discrpition: "verified media professionals",
+        discrpition: "media professional in India",
         icon: "group",
     },
     {
         title: "500+ ",
-        discrpition: "corporates and agencies onboarded",
+        discrpition: "media agencies in India",
         icon: "cameramen",
     },
     {
         title: "2,000+ ",
-        discrpition: "successful projects closed",
+        discrpition: "corporates in India",
         icon: "project",
     },
     {
         title: "1,500+ ",
-        discrpition: "upskilled through GIG Skilling programs",
+        discrpition: "corporates in India",
         icon: "building",
     },
 ]
@@ -470,3 +470,52 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
         ],
     },
 ];
+
+export const CREATIVE_CELEBRITIES_SLIDER_DATA = [
+    '/images/webp/creative/video_slider_one.webp',
+    '/images/webp/creative/video_slider_two.webp',
+    '/images/webp/creative/video_slider_three.webp',
+    '/images/webp/creative/video_slider_four.webp',
+    '/images/webp/creative/video_slider_five.webp',
+    '/images/webp/creative/video_slider_six.webp',
+    '/images/webp/creative/video_slider_seven.webp',
+    '/images/webp/creative/video_slider_eight.webp',
+    '/images/webp/creative/video_slider_nine.webp',
+    '/images/webp/creative/video_slider_ten.webp',
+    '/images/webp/creative/video_slider_eleven.webp',
+    '/images/webp/creative/video_slider_twelve.webp',
+    '/images/webp/creative/video_slider_thirteen.webp',
+    '/images/webp/creative/video_slider_fourteen.webp',
+    '/images/webp/creative/video_slider_fifteen.webp',
+]
+export const ARTIST_CELEBRITIES_SLIDER_DATA = [
+    '/images/webp/artist/video_slider_one.webp',
+    '/images/webp/artist/video_slider_two.webp',
+    '/images/webp/artist/video_slider_three.webp',
+    '/images/webp/artist/video_slider_four.webp',
+    '/images/webp/artist/video_slider_five.webp',
+    '/images/webp/artist/video_slider_six.webp',
+    '/images/webp/artist/video_slider_seven.webp',
+    '/images/webp/artist/video_slider_eight.webp',
+    '/images/webp/artist/video_slider_nine.webp',
+    '/images/webp/artist/video_slider_ten.webp',
+]
+export const MEDIA_CELEBRITIES_SLIDER_DATA = [
+    '/images/webp/media/video_slider_one.webp',
+    '/images/webp/media/video_slider_two.webp',
+    '/images/webp/media/video_slider_three.webp',
+    '/images/webp/media/video_slider_four.webp',
+    '/images/webp/media/video_slider_five.webp',
+    '/images/webp/media/video_slider_six.webp',
+    '/images/webp/media/video_slider_seven.webp',
+    '/images/webp/media/video_slider_eight.webp',
+    '/images/webp/media/video_slider_nine.webp',
+    '/images/webp/media/video_slider_ten.webp',
+]
+
+export const phoneImages = [
+    '/images/webp/phone-one.webp',
+    '/images/webp/phone-two.webp',
+    '/images/webp/phone-three.webp',
+    '/images/webp/phone-one.webp',
+]

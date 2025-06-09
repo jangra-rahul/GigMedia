@@ -7,14 +7,9 @@ import { Navigation, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
-const phoneImages = [
-  '/images/webp/phone-one.webp',
-  '/images/webp/phone-two.webp',
-  '/images/webp/phone-three.webp',
-  '/images/webp/phone-one.webp',
-]
 
-const ArtistMobile = () => {
+
+const ArtistMobile = ({ mapdata, description, title }) => {
   const [activeIndex, setActiveIndex] = useState(0)
   const swiperRef = useRef(null)
 
@@ -31,10 +26,10 @@ const ArtistMobile = () => {
           {/* Text Content */}
           <div className="relative z-30 order-2 md:order-1 lg:max-w-[572px]">
             <h3 data-aos="fade-up-right" className="text-black font-bold text-2xl md:text-3xl lg:text-[37px] leading-[122%] pb-2">
-              Artist Avenue: Revolutionizing Talent Discovery
+              {title}
             </h3>
-            <p data-aos="fade-up-right" data-aos-duration={1200} className="text-black ff_n text-base md:text-lg leading-[150%] pb-[30px]">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            <p data-aos="fade-up-right" data-aos-duration={1200} className="text-black/60 ms-3 ff_n text-base md:text-lg leading-[150%] pb-[30px]">
+              {description}
             </p>
           </div>
 
@@ -47,15 +42,15 @@ const ArtistMobile = () => {
               loop={true}
               speed={600}
               autoplay={{
-                delay: 1500,
+                delay: 2500,
                 disableOnInteraction: false,
               }}
               onSwiper={(swiper) => (swiperRef.current = swiper)}
               onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
               className="w-full max-w-[700px]"
             >
-              {phoneImages.map((src, index) => {
-                const totalSlides = phoneImages.length
+              {mapdata.map((src, index) => {
+                const totalSlides = mapdata.length
                 const getRealIndex = (offset) => (activeIndex + offset + totalSlides) % totalSlides
 
                 let scale = 'scale-60'
@@ -85,22 +80,30 @@ const ArtistMobile = () => {
                 )
               })}
             </Swiper>
-
-            {/* Pagination Dots */}
+            {/* Pagination Dots (Fixed 4 visible dots) */}
             <div className="flex gap-2 mt-4">
-              {phoneImages.map((_, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => {
-                    if (swiperRef.current) {
-                      swiperRef.current.slideToLoop(idx)
-                    }
-                  }}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 ${idx === activeIndex ? 'bg-[#FF0004]' : 'bg-[#FFE0E1]'
-                    }`}
-                ></button>
-              ))}
+              {[0, 1, 2, 3].map((dotIndex) => {
+                // Map total slides to 4-dot logic
+                const totalGroups = 4
+                const currentGroup = activeIndex % totalGroups
+
+                return (
+                  <button
+                    key={dotIndex}
+                    onClick={() => {
+                      if (swiperRef.current) {
+                        // Jump to the start of that group (every n-th slide)
+                        const targetIndex = Math.floor((mapdata.length / totalGroups) * dotIndex)
+                        swiperRef.current.slideToLoop(targetIndex)
+                      }
+                    }}
+                    className={`w-3 h-3 rounded-full cursor-pointer transition-all duration-300 ${dotIndex === currentGroup ? 'bg-[#FF0004]' : 'bg-[#FFE0E1]'
+                      }`}
+                  ></button>
+                )
+              })}
             </div>
+
           </div>
         </div>
       </div>

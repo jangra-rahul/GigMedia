@@ -22,7 +22,7 @@ const HomePage = () => {
         });
     }, []);
     return (
-        <div>
+        <div className="overflow-clip">
             <Hero />
             <AboutUs />
             <MediaDetails />

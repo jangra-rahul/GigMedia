@@ -61,16 +61,16 @@ const Footer = () => {
               <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Home
               </Link>
-              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              <Link href="#about" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 About
               </Link>
-              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              {/* <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Latest Video
-              </Link>
-              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              </Link> */}
+              {/* <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Our Team
-              </Link>
-              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              </Link> */}
+              <Link href="#faqs" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Help(FAQ)
               </Link>
               <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
