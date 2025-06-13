@@ -1,5 +1,5 @@
 "use client"
-import { MEDIA_CELEBRITIES_SLIDER_DATA, MEDIA_HUB_CELEBRITIES_DATA_LIST, MEDIA_HUB_CONNECT_DATA } from "@/utlis/helper";
+import { MEDIA_CELEBRITIES_SLIDER_DATA, MEDIA_HUB_CELEBRITIES_DATA_LIST, MEDIA_HUB_CONNECT_DATA, MEDIA_VIDEO_LIST } from "@/utlis/helper";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -59,7 +59,7 @@ const MediaHub = () => {
 
                 mapdata={MEDIA_CELEBRITIES_SLIDER_DATA} />
             <GigMediaDownload />
-            <Faq />
+            <Faq videomapdata={MEDIA_VIDEO_LIST} />
             <Footer
             />
         </div>

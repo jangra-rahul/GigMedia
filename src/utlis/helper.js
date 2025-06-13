@@ -867,3 +867,116 @@ export const phoneImages = [
     '/images/webp/phone-three.webp',
     '/images/webp/phone-one.webp',
 ]
+
+export const ARTIST_VIDEO_LIST = [
+    {
+        question: 'Tips to Complete your profile effectively to get more response',
+        image: "/images/webp/creative/phone.webp",
+    },
+    {
+        question: 'How to apply for jobs',
+        video: "/videos/faq-video.mp4"
+    },
+    {
+        question: 'How to see your applied openings',
+        image: "/images/webp/phone-two.webp",
+    },
+    {
+        question: 'How to add yourself in your artist association',
+        image: "/images/webp/creative/phone.webp",
+    },
+    {
+        question: 'How to add yourself in your influencer management agency',
+        image: "/images/webp/phone-three.webp",
+    },
+    {
+        question: 'Tips to Complete your profile effectively to get more response',
+        image: "/images/webp/phone-one.webp",
+    },
+    {
+        question: 'How to add artist',
+        image: "/images/webp/creative/phone.webp",
+    },
+    {
+        question: 'How to approach Creative agencies',
+        image: "/images/webp/creative/phone.webp",
+    }
+]
+export const CREATIVE_VIDEO_LIST = [
+    {
+        question: 'How to apply for jobs',
+        video: "/videos/faq-video.mp4"
+    },
+    {
+        question: 'How to see your applied openings',
+        image: "/images/webp/phone-two.webp"
+    },
+    {
+        question: 'How to add yourself in your artist association',
+        image: "/images/webp/creative/phone.webp"
+    },
+    {
+        question: 'Tips to complete your profile effectively to get more response',
+        image: "/images/webp/phone-one.webp"
+    },
+    {
+        question: 'How to post new opening',
+        image: "/images/webp/phone-three.webp"
+    },
+    {
+        question: 'How to post requirement',
+        image: "/images/webp/creative/phone.webp"
+    },
+    {
+        question: 'How to Hire celebrity',
+        image: "/images/webp/creative/phone.webp"
+    },
+    {
+        question: 'How to add Celebrity',
+        image: "/images/webp/creative/phone.webp"
+    },
+    {
+        question: 'How to add influencer',
+        image: "/images/webp/phone-two.webp"
+    },
+    {
+        question: 'Find your marked favorite artist in one place',
+        image: "/images/webp/phone-three.webp"
+    },
+    {
+        question: 'How to hire artist directly from GMA',
+        image: "/images/webp/phone-one.webp"
+    },
+    {
+        question: 'Manage your Influencers',
+        image: "/images/webp/creative/phone.webp"
+    }
+];
+
+export const MEDIA_VIDEO_LIST = [
+    {
+        question: 'Tips to Complete your profile effectively to get more response',
+        image: "/images/webp/creative/phone.webp",
+    },
+    {
+        question: 'How to post requirement',
+        video: "/videos/faq-video.mp4"
+    },
+    {
+        question: 'How to Hire celebrity',
+        image: "/images/webp/phone-two.webp",
+    },
+    {
+        question: 'How to hire influencer',
+        image: "/images/webp/creative/phone.webp",
+    },
+    {
+        question: 'How to hire artist directly from artist associations',
+        image: "/images/webp/phone-three.webp",
+    },
+    {
+        question: 'How to hire media agencies',
+        image: "/images/webp/phone-one.webp",
+    },
+
+]

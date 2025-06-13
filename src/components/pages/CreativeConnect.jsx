@@ -1,5 +1,5 @@
 "use client"
-import { CREATIVE_CELEBRITIES_DATA_LIST, CREATIVE_CELEBRITIES_SLIDER_DATA, CREATIVE_CONNECT_DATA } from "@/utlis/helper";
+import { CREATIVE_CELEBRITIES_DATA_LIST, CREATIVE_CELEBRITIES_SLIDER_DATA, CREATIVE_CONNECT_DATA, CREATIVE_VIDEO_LIST } from "@/utlis/helper";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -84,7 +84,7 @@ const CreativeConnect = () => {
 
             />
             <GigMediaDownload />
-            <Faq />
+            <Faq videomapdata={CREATIVE_VIDEO_LIST} />
             <Footer />
         </div>
     );

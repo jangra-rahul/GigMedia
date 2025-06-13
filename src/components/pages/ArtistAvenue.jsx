@@ -1,6 +1,6 @@
 
 "use client"
-import { ARTIST_CELEBRITIES_DATA_LIST, ARTIST_CELEBRITIES_SLIDER_DATA, ARTIST_CONNECT_DATA } from "@/utlis/helper";
+import { ARTIST_CELEBRITIES_DATA_LIST, ARTIST_CELEBRITIES_SLIDER_DATA, ARTIST_CONNECT_DATA, ARTIST_VIDEO_LIST } from "@/utlis/helper";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -67,7 +67,7 @@ const ArtistAvenue = () => {
                 </>}
                 mapdata={ARTIST_CELEBRITIES_SLIDER_DATA} />
             <GigMediaDownload />
-            <Faq />
+            <Faq videomapdata={ARTIST_VIDEO_LIST} />
             <Footer />
         </div>
     );
