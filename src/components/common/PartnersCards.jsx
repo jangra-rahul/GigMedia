@@ -1,12 +1,10 @@
 'use client';
-import { CREATIVE_CONNECT_DATA } from '@/utlis/helper';
 import Image from 'next/image';
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-const PartnersCards = () => {
+const PartnersCards = ({mapdata}) => {
     return (
         <div className='bg-[#FFE0E1] relative'>
             <span className='block bg-white h-[55px] w-full absolute bottom-0'></span>
@@ -24,7 +22,7 @@ const PartnersCards = () => {
                     }}
                     className="pt-16 md:pt-20 lg:pt-24 xl:pt-[100px]"
                 >
-                    {CREATIVE_CONNECT_DATA.map((obj, i) => (
+                    {mapdata.map((obj, i) => (
                         <SwiperSlide key={i} className='h-full'>
                             <div
                                 data-aos="flip-left"

@@ -108,7 +108,7 @@ export const CREATIVE_CONNECT_DATA = [
         image: '/images/webp/creative/films.webp',
         title: 'Subh Labh Films',
     },
-    
+
     {
         image: '/images/webp/creative/global_music_junction.webp',
         title: 'Global Music Junction',
@@ -342,97 +342,254 @@ export const CREATIVE_CELEBRITIES_DATA_LIST = [
         className: 'row-span-2',
         image: [
             {
-                img: '/images/webp/creative/aishwarya.webp',
-                name: 'Aishwarya',
-                role: 'Bollywood Actor, Model',
+                img: '/images/webp/creative/ad_agency.webp',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/creative/casting_agency.webp',
             },
+            {
+                img: '/images/webp/creative/celeb_management.webp',
+            },
+            {
+                img: '/images/webp/creative/content_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/digital_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/event_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/influencer_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/line_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/post_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/pr_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/production_house.webp',
+            },
+            {
+                img: '/images/webp/creative/production_studio.webp',
+            },
+
         ],
 
     },
     {
         image: [
+
             {
-                img: '/images/webp/creative/aishwarya.webp',
-                name: 'Aishwarya',
-                role: 'Bollywood Actor, Model',
+                img: '/images/webp/creative/celeb_management.webp',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/creative/content_agency.webp',
             },
+            {
+                img: '/images/webp/creative/digital_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/event_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/influencer_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/line_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/post_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/pr_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/production_house.webp',
+            },
+            {
+                img: '/images/webp/creative/production_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/ad_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/casting_agency.webp',
+            },
+
         ],
     },
     {
         image: [
+
             {
-                img: '/images/webp/creative/pranjal.webp',
-                name: 'Pranjal Dhaiya',
-                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/creative/digital_marketing.webp',
             },
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/event_agency.webp',
             },
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/influencer_marketing.webp',
             },
+            {
+                img: '/images/webp/creative/line_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/post_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/pr_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/production_house.webp',
+            },
+            {
+                img: '/images/webp/creative/production_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/ad_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/casting_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/celeb_management.webp',
+            },
+            {
+                img: '/images/webp/creative/content_agency.webp',
+            },
+
         ],
     },
     {
         image: [
+
             {
-                img: '/images/webp/creative/model.webp',
-                name: '',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/influencer_marketing.webp',
             },
             {
-                img: '/images/webp/creative/pranjal.webp',
-                name: 'Pranjal Dhaiya',
-                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/creative/line_agency.webp',
             },
+            {
+                img: '/images/webp/creative/post_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/pr_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/production_house.webp',
+            },
+            {
+                img: '/images/webp/creative/production_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/ad_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/casting_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/celeb_management.webp',
+            },
+            {
+                img: '/images/webp/creative/content_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/digital_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/event_agency.webp',
+            },
+
         ],
     },
     {
         image: [
+
             {
-                img: '/images/webp/creative/kishore.webp',
-                name: 'Kishor Kumar',
-                role: 'Bollywood Actor, Model',
+                img: '/images/webp/creative/post_studio.webp',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/creative/pr_agency.webp',
             },
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/production_house.webp',
             },
+            {
+                img: '/images/webp/creative/production_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/ad_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/casting_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/celeb_management.webp',
+            },
+            {
+                img: '/images/webp/creative/content_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/digital_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/event_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/influencer_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/line_agency.webp',
+            },
+
         ],
         className: 'lg:row-span-2 lg:col-span-2',
     },
     {
         image: [
+
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/creative/production_house.webp',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/creative/production_studio.webp',
             },
+            {
+                img: '/images/webp/creative/ad_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/casting_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/celeb_management.webp',
+            },
+            {
+                img: '/images/webp/creative/content_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/digital_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/event_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/influencer_marketing.webp',
+            },
+            {
+                img: '/images/webp/creative/line_agency.webp',
+            },
+            {
+                img: '/images/webp/creative/post_studio.webp',
+            },
+            {
+                img: '/images/webp/creative/pr_agency.webp',
+            },
+
         ],
     },
 ];
