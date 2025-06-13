@@ -85,71 +85,81 @@ export const PWOERING_DREAM_DATA = [
 
 export const CREATIVE_CONNECT_DATA = [
     {
-        image: '/images/webp/creative/sony.webp',
-        title: 'Sony',
+        image: '/images/webp/creative/AVD_motin_picture.webp',
+        title: 'AVD Motin Picture',
     },
     {
-        image: '/images/webp/creative/tseries.webp',
-        title: 'T-SERIES',
+        image: '/images/webp/creative/believe.jpg',
+        title: 'Believe Entertainment',
     },
     {
-        image: '/images/webp/creative/amazon.webp',
-        title: 'Amazon Prime',
+        image: '/images/webp/creative/chaupal.webp',
+        title: 'Chaupal',
     },
     {
-        image: '/images/webp/creative/netflix.webp',
-        title: 'Netflix',
+        image: '/images/webp/creative/crayans.webp',
+        title: 'Crayans',
     },
     {
-        image: '/images/webp/creative/cintaa.webp',
-        title: 'Cine & TV Artistes’ Association',
+        image: '/images/webp/creative/desi_geet.webp',
+        title: 'Desi Geet',
     },
     {
-        image: '/images/webp/creative/imppa.webp',
-        title: 'Indian Motion Picture Producers’ Association',
+        image: '/images/webp/creative/films.webp',
+        title: 'Subh Labh Films',
+    },
+    
+    {
+        image: '/images/webp/creative/global_music_junction.webp',
+        title: 'Global Music Junction',
     },
     {
-        image: '/images/webp/creative/fwice.webp',
-        title: 'Federation of Western India Cine Employees',
+        image: '/images/webp/creative/hitz_music.webp',
+        title: 'Hitz Music',
     },
     {
-        image: '/images/webp/creative/iftda.webp',
-        title: 'Indian Film & Television Directors’ Association',
+        image: '/images/webp/creative/jojo.webp',
+        title: 'JOJO',
     },
     {
-        image: '/images/webp/creative/cintaa.webp',
-        title: 'Cine & TV Artistes’ Association',
+        image: '/images/webp/creative/maa_amma_films.webp',
+        title: 'Maa Amma Films',
     },
     {
-        image: '/images/webp/creative/imppa.webp',
-        title: 'Indian Motion Picture Producers’ Association',
+        image: '/images/webp/creative/shikaari_music.webp',
+        title: 'Shikaari Music',
     },
     {
-        image: '/images/webp/creative/fwice.webp',
-        title: 'Federation of Western India Cine Employees',
-    },
-    {
-        image: '/images/webp/creative/iftda.webp',
-        title: 'Indian Film & Television Directors’ Association',
+        image: '/images/webp/creative/warner_music_india.webp',
+        title: 'Warner Music India',
     },
 ]
 export const MEDIA_HUB_CONNECT_DATA = [
     {
-        image: '/images/webp/creative/cintaa.webp',
-        title: 'Cine & TV Artistes’ Association',
+        image: '/images/webp/media/AITMC_trust.webp',
+        title: 'AITMC Trust',
     },
     {
-        image: '/images/webp/creative/imppa.webp',
-        title: 'Indian Motion Picture Producers’ Association',
+        image: '/images/webp/media/AVPL.webp',
+        title: 'AVPL',
     },
     {
-        image: '/images/webp/creative/fwice.webp',
-        title: 'Federation of Western India Cine Employees',
+        image: '/images/webp/media/bhagva.webp',
+        title: 'Bhagva ',
     },
     {
-        image: '/images/webp/creative/iftda.webp',
-        title: 'Indian Film & Television Directors’ Association',
+        image: '/images/webp/media/boho_villa.webp',
+        title: 'Boho’s Villa',
     },
+    {
+        image: '/images/webp/media/farmer_s_city.webp',
+        title: 'Farmer’s City',
+    },
+    {
+        image: '/images/webp/media/romeo_lane.webp',
+        title: 'Romeo lane',
+    },
+
 ]
 export const ARTIST_CONNECT_DATA = [
     {
@@ -171,106 +181,163 @@ export const ARTIST_CONNECT_DATA = [
 ]
 
 
-export const CREATIVE_CELEBRITIES_DATA_LIST = [
+export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
     {
         className: 'row-span-2',
         image: [
             {
-                name: 'Sapna Choudhary',
+                img: '/images/webp/media/binder.webp',
+                name: 'Binder Danoda',
                 role: 'Haryanvi Singer and Dancer',
-                img: '/images/webp/creative/spana.webp',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/media/sahu.webp',
+                name: 'Veer Sahu',
+                role: 'Haryanvi Singer and Dancer',
             },
+            {
+                img: '/images/webp/media/renuka.webp',
+                name: 'Renuka Panwar',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/sapna_choudhary.webp',
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi Singer and Dancer',
+            },
+
+
         ],
 
     },
     {
         image: [
             {
-                img: '/images/webp/creative/aishwarya.webp',
-                name: 'Aishwarya',
-                role: 'Bollywood Actor, Model',
+                img: '/images/webp/media/amit.webp',
+                name: 'Amit',
+                role: 'Haryanvi Singer and Dancer',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/media/kd_desi_rockstar.webp',
+                name: 'KD Desi Rockstar',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/abc.webp',
+                name: '',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/abcd.webp',
+                name: '',
+                role: 'Haryanvi Singer and Dancer',
+            },
+        ],
+    },
+    {
+        image: [
+
+            {
+                img: '/images/webp/media/abcd.webp',
+                name: '',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/kd_desi_rockstar.webp',
+                name: 'KD Desi Rockstar',
+                role: 'Haryanvi Singer and Dancer',
+            },
+
+            {
+                img: '/images/webp/media/abc.webp',
+                name: '',
+                role: 'Haryanvi Singer and Dancer',
+            },
+
+            {
+                img: '/images/webp/media/binder.webp',
+                name: 'Binder Danoda',
+                role: 'Haryanvi Singer and Dancer',
             },
         ],
     },
     {
         image: [
             {
-                img: '/images/webp/creative/pranjal.webp',
-                name: 'Pranjal Dhaiya',
+                img: '/images/webp/media/sahu.webp',
+                name: 'Veer Sahu',
                 role: 'Haryanvi Singer and Dancer',
             },
             {
+                img: '/images/webp/media/renuka.webp',
+                name: 'Renuka Panwar',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/amit.webp',
+                name: 'Amit',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/sapna_choudhary.webp',
                 name: 'Sapna Choudhary',
                 role: 'Haryanvi Singer and Dancer',
-                img: '/images/webp/creative/spana.webp',
             },
-            {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
-            },
+
         ],
     },
     {
         image: [
             {
-                img: '/images/webp/creative/model.webp',
+                img: '/images/webp/media/abcd.webp',
                 name: '',
-                role: 'Haryanvi Singer',
-            },
-            {
-                img: '/images/webp/creative/pranjal.webp',
-                name: 'Pranjal Dhaiya',
                 role: 'Haryanvi Singer and Dancer',
             },
-        ],
-    },
-    {
-        image: [
             {
-                name: 'Surishty Maan',
-                role: 'Punjabi Model and Dancer',
-                img: '/images/webp/creative/maan.webp',
+                img: '/images/webp/media/amit.webp',
+                name: 'Amit',
+                role: 'Haryanvi Singer and Dancer',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/media/renuka.webp',
+                name: 'Renuka Panwar',
+                role: 'Haryanvi Singer and Dancer',
             },
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/media/sahu.webp',
+                name: '',
+                role: 'Haryanvi Singer and Dancer',
             },
         ],
         className: 'lg:row-span-2 lg:col-span-2',
     },
     {
         image: [
+
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/media/sapna_choudhary.webp',
+                name: 'Sapna Choudhary',
+                role: 'Haryanvi Singer and Dancer',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/media/renuka.webp',
+                name: 'Renuka Panwar',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/sahu.webp',
+                name: 'Veer Sahu',
+                role: 'Haryanvi Singer and Dancer',
+            },
+            {
+                img: '/images/webp/media/abc.webp',
+                name: '',
+                role: 'Haryanvi Singer and Dancer',
             },
         ],
     },
 ];
-export const MEDIA_HUB_CELEBRITIES_DATA_LIST = [
+export const CREATIVE_CELEBRITIES_DATA_LIST = [
     {
         className: 'row-span-2',
         image: [
@@ -375,98 +442,221 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
         className: 'row-span-2',
         image: [
             {
-                img: '/images/webp/creative/aishwarya.webp',
-                name: 'Aishwarya',
+                img: '/images/webp/artist/aryan_choudhary.webp',
+                name: 'Aryan Choudhary',
                 role: 'Bollywood Actor, Model',
             },
             {
-                name: 'Sapna Choudhary',
-                role: 'Haryanvi Singer and Dancer',
-                img: '/images/webp/creative/spana.webp',
-            },
-        ],
-
-    },
-    {
-        image: [
-            {
-                name: 'Sapna Choudhary',
-                role: 'Haryanvi Singer and Dancer',
-                img: '/images/webp/creative/spana.webp',
-            },
-            {
-                img: '/images/webp/creative/aishwarya.webp',
-                name: 'Aishwarya',
+                img: '/images/webp/artist/hariom_kaushik.webp',
+                name: 'Hariom Kaushik',
                 role: 'Bollywood Actor, Model',
             },
-
-        ],
-    },
-    {
-        image: [
             {
-                img: '/images/webp/creative/pranjal.webp',
-                name: 'Pranjal Dhaiya',
-                role: 'Haryanvi Singer and Dancer',
+                img: '/images/webp/artist/ryan_lohan.webp',
+                name: 'Ryan Lohan',
+                role: 'Bollywood Actor, Model',
             },
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/artist/sumit_dhankar.webp',
+                name: 'Sumit Dhankar',
+                role: 'Bollywood Actor, Model',
             },
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/artist/uttar_kumar.webp',
+                name: 'Uttar Kumar',
+                role: 'Bollywood Actor, Model',
             },
-        ],
-    },
-    {
-        image: [
             {
-                img: '/images/webp/creative/model.webp',
+                img: '/images/webp/artist/deepak.webp',
                 name: '',
-                role: 'Haryanvi Singer',
+                role: 'Bollywood Actor, Model',
+            },
+
+        ],
+
+    },
+    {
+        image: [
+
+            {
+                img: '/images/webp/artist/hariom_kaushik.webp',
+                name: 'Hariom Kaushik',
+                role: 'Bollywood Actor, Model',
             },
             {
-                name: 'Sapna Choudhary',
-                role: 'Haryanvi Singer and Dancer',
-                img: '/images/webp/creative/spana.webp',
+                img: '/images/webp/artist/ryan_lohan.webp',
+                name: 'Ryan Lohan',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/sumit_dhankar.webp',
+                name: 'Sumit Dhankar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/uttar_kumar.webp',
+                name: 'Uttar Kumar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/deepak.webp',
+                name: '',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/aryan_choudhary.webp',
+                name: 'Aryan Choudhary',
+                role: 'Bollywood Actor, Model',
+            },
+
+        ],
+    },
+    {
+        image: [
+
+
+            {
+                img: '/images/webp/artist/ryan_lohan.webp',
+                name: 'Ryan Lohan',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/sumit_dhankar.webp',
+                name: 'Sumit Dhankar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/uttar_kumar.webp',
+                name: 'Uttar Kumar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/deepak.webp',
+                name: '',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/aryan_choudhary.webp',
+                name: 'Aryan Choudhary',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/hariom_kaushik.webp',
+                name: 'Hariom Kaushik',
+                role: 'Bollywood Actor, Model',
             },
         ],
     },
     {
         image: [
+
+
             {
-                img: '/images/webp/creative/kishore.webp',
-                name: 'Kishor Kumar',
+                img: '/images/webp/artist/sumit_dhankar.webp',
+                name: 'Sumit Dhankar',
                 role: 'Bollywood Actor, Model',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/artist/uttar_kumar.webp',
+                name: 'Uttar Kumar',
+                role: 'Bollywood Actor, Model',
             },
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/artist/deepak.webp',
+                name: '',
+                role: 'Bollywood Actor, Model',
             },
+            {
+                img: '/images/webp/artist/aryan_choudhary.webp',
+                name: 'Aryan Choudhary',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/hariom_kaushik.webp',
+                name: 'Hariom Kaushik',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/ryan_lohan.webp',
+                name: 'Ryan Lohan',
+                role: 'Bollywood Actor, Model',
+            },
+
+        ],
+    },
+    {
+        image: [
+
+
+            {
+                img: '/images/webp/artist/uttar_kumar.webp',
+                name: 'Uttar Kumar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/deepak.webp',
+                name: '',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/aryan_choudhary.webp',
+                name: 'Aryan Choudhary',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/hariom_kaushik.webp',
+                name: 'Hariom Kaushik',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/ryan_lohan.webp',
+                name: 'Ryan Lohan',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/sumit_dhankar.webp',
+                name: 'Sumit Dhankar',
+                role: 'Bollywood Actor, Model',
+            },
+
         ],
         className: 'lg:row-span-2 lg:col-span-2',
     },
     {
         image: [
+
+
             {
-                img: '/images/webp/creative/kd.webp',
-                name: 'kd',
-                role: 'Haryanvi Singer',
+                img: '/images/webp/artist/deepak.webp',
+                name: '',
+                role: 'Bollywood Actor, Model',
             },
             {
-                name: 'Dhanda Noyiwal',
-                role: 'Haryanvi Singer',
-                img: '/images/webp/creative/noyiwala.webp',
+                img: '/images/webp/artist/aryan_choudhary.webp',
+                name: 'Aryan Choudhary',
+                role: 'Bollywood Actor, Model',
             },
+            {
+                img: '/images/webp/artist/hariom_kaushik.webp',
+                name: 'Hariom Kaushik',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/ryan_lohan.webp',
+                name: 'Ryan Lohan',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/sumit_dhankar.webp',
+                name: 'Sumit Dhankar',
+                role: 'Bollywood Actor, Model',
+            },
+            {
+                img: '/images/webp/artist/uttar_kumar.webp',
+                name: 'Uttar Kumar',
+                role: 'Bollywood Actor, Model',
+            },
+
         ],
     },
 ];
@@ -511,6 +701,7 @@ export const MEDIA_CELEBRITIES_SLIDER_DATA = [
     '/images/webp/media/video_slider_eight.webp',
     '/images/webp/media/video_slider_nine.webp',
     '/images/webp/media/video_slider_ten.webp',
+    '/images/webp/media/video_slider_eleven.webp',
 ]
 
 export const phoneImages = [

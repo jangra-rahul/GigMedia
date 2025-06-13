@@ -6,6 +6,7 @@ import Icons from "./Icons";
 import Link from "next/link";
 
 const Footer = () => {
+  const fullyear = new Date().getFullYear();
   return (
     <footer className="relative bg-white text-black pt-10 pb-6">
       {/* Wave SVG background */}
@@ -36,12 +37,19 @@ const Footer = () => {
               <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold">
                 We GiG Media
               </h4>
-              <p className="text-base max-w-[325px] md:text-lg ff_n font-normal pt-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-              </p>
+              <div className="flex flex-col gap-4 pt-4">
+                <Link href="/artist-avenue" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+                  Artist Avenue
+                </Link>
+                <Link href="/creative-connect" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+                  Creative Connect
+                </Link>
+                <Link href="/media-hub" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+                  Media Hub
+                </Link>
+              </div>
             </div>
-            <div>
+            <div className="mt-8">
               <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold">
                 Get in Touch!
               </h4>
@@ -58,29 +66,29 @@ const Footer = () => {
               Important Links
             </h4>
             <div className="flex flex-col gap-4 pt-4">
-              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              <Link href="/" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Home
               </Link>
-              <Link href="#about" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              <Link href="#about" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 About
               </Link>
-              {/* <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              {/* <Link href="/" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Latest Video
               </Link> */}
-              {/* <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              {/* <Link href="/" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Our Team
               </Link> */}
-              <Link href="#faqs" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              <Link href="#faqs" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Help(FAQ)
               </Link>
-              <Link href="/" className="hover:text-red-600 cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
+              <Link href="/" className="hover:text-red-600 max-w-max cursor-pointer text-[15px] leading-[140%] ff_n font-normal text-black">
                 Contact
               </Link>
             </div>
 
           </div>
           <div className="text-sm">
-           <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold text-black">
+            <h4 className="text-lg md:text-xl lg:text-[23px] font-semibold text-black">
               Get The App
             </h4>
             <div className="flex gap-4 mt-9">
@@ -98,7 +106,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className=" border-gray-300 mt-10 pt-4 flex flex-col md:flex-row justify-between items-center text-xs text-gray-600">
           <p className="text-[15px] text-[#593939] ff_n font-normal mb-0 ">
-            © Copyright 2024{" "}
+            © Copyright {fullyear}{" "}
             <span className="text-black font-semibold"> Hki </span>
             <span className="text-[#E50A14] font-semibold"> Media</span> - All
             Rights Reserved.
