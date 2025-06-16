@@ -32,6 +32,7 @@ const MediaDetails = () => {
                       duration={2.5}
                       separator=","
                     />
+                    <span className="capitalize ms-1">{obj.data}+</span>
                   </h3>
                   <p className="ff_n text-base md:text-md font-semibold leading-[122%] text-black capitalize">
                     {obj.discrpition}

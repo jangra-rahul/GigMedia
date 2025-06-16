@@ -20,22 +20,25 @@ export const NAVIGATION_LINK_LIST = [
 
 export const MEDIA_DETAILS_DATA_LIST = [
     {
-        title: "10,000+ ",
+        title: "2",
+        data: "Cr",
         discrpition: "media professional in India",
         icon: "group",
     },
     {
-        title: "500+ ",
+        title: "1.5",
+        data: "Lakh",
         discrpition: "media agencies in India",
         icon: "cameramen",
     },
     {
-        title: "2,000+ ",
+        title: "12",
+        data: "Lakh",
         discrpition: "corporates in India",
         icon: "project",
     },
     {
-        title: "1,500+ ",
+        title: "5000 ",
         discrpition: "corporates in India",
         icon: "building",
     },
@@ -89,7 +92,7 @@ export const CREATIVE_CONNECT_DATA = [
         title: 'AVD Motin Picture',
     },
     {
-        image: '/images/webp/creative/believe.jpg',
+        image: '/images/webp/creative/believe.webp',
         title: 'Believe Entertainment',
     },
     {
