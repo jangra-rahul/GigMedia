@@ -30,33 +30,6 @@ const MediaHub = () => {
                 title={"Featured Celebrities"} mapdataAll={MEDIA_HUB_CELEBRITIES_DATA_LIST} />
             <ArtistMobile
                 heading={'Media Hub'}
-                description={<>
-                    <span className="flex gap-2">
-                        <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>
-                        Tips to complete your profile effectively to get more response
-                    </span>
-                    <span className="flex gap-2">
-                        <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>
-                        How to post requirement
-                    </span>
-                    <span className="flex gap-2">
-                        <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>
-                        How to Hire celebrity
-                    </span>
-                    <span className="flex gap-2">
-                        <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>
-                        How to hire influencer
-                    </span>
-                    <span className="flex gap-2">
-                        <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>
-                        How to hire artist directly from artist associations
-                    </span>
-                    <span className="flex gap-2">
-                        <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>
-                        How to hire media agencies
-                    </span>
-                </>}
-
                 mapdata={MEDIA_CELEBRITIES_SLIDER_DATA} />
             <GigMediaDownload />
             <Faq videomapdata={MEDIA_VIDEO_LIST} />

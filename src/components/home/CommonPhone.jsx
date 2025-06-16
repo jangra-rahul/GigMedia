@@ -9,14 +9,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 
-const phoneImages = [
-    '/images/webp/phone-one.webp',
-    '/images/webp/phone-two.webp',
-    '/images/webp/phone-three.webp',
-    '/images/webp/phone-one.webp',
-];
 
-const CommonPhone = ({ red, title, three, url ,desc}) => {
+const CommonPhone = ({ red, title, three, url, desc, phoneImages }) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const swiperRef = useRef(null);
 
@@ -36,7 +30,7 @@ const CommonPhone = ({ red, title, three, url ,desc}) => {
                             {title}
                         </h3>
                         <p data-aos="fade-up-right" data-aos-duration="1100" className={`text-black ff_n text-base md:text-lg leading-[150%] pb-[30px] ${red ? 'text-end max-w-[500px] ms-auto' : 'text-left'}`}>
-{desc}
+                            {desc}
                         </p>
                         <div data-aos="fade-up-right" data-aos-duration="1400" className={`flex ${red ? 'justify-end' : 'justify-start'} items-center gap-4`}>
                             <Link

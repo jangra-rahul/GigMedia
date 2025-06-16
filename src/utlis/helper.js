@@ -950,69 +950,81 @@ export const ARTIST_CELEBRITIES_SLIDER_DATA = [
 ]
 
 export const MEDIA_CELEBRITIES_SLIDER_DATA = [
-  {
-    image: '/images/webp/media/video_slider_one.webp',
-    title: '1. Your GigMedia Home',
-    description: 'Manage your profile, bookings, and requirements in one place.',
-  },
-  {
-    image: '/images/webp/media/video_slider_two.webp',
-    title: '2. Modify Bookings with Ease',
-    description: 'Update or manage your booked artists anytime.',
-  },
-  {
-    image: '/images/webp/media/video_slider_three.webp',
-    title: '3. Manage Your Posted Requirements',
-    description: 'Edit, track, or close job posts as needed.',
-  },
-  {
-    image: '/images/webp/media/video_slider_four.webp',
-    title: '4. Mark Favorite Artists',
-    description: 'Save top profiles for quick access and future hiring.',
-  },
-  {
-    image: '/images/webp/media/video_slider_five.webp',
-    title: '5. Find the Right Agency Fast',
-    description: 'Discover media agencies that match your exact needs.',
-  },
-  {
-    image: '/images/webp/media/video_slider_six.webp',
-    title: '6. Book Your Favorite Celebrity, Hassle-Free',
-    description: 'No middlemen, just smooth transactions.',
-  },
-  {
-    image: '/images/webp/media/video_slider_seven.webp',
-    title: '7. Chat Directly with Agencies',
-    description: 'Connect securely—without revealing personal details.',
-  },
-  {
-    image: '/images/webp/media/video_slider_eight.webp',
-    title: '8. Post Requirements, Get Matched',
-    description: 'Let the right talent find you.',
-  },
-  {
-    image: '/images/webp/media/video_slider_nine.webp',
-    title: '9. Dynamic Dashboard',
-    description: 'Update and manage your profile effortlessly.',
-  },
-  {
-    image: '/images/webp/media/video_slider_ten.webp',
-    title: '10. Build an Effective Profile',
-    description: 'Increase credibility and attract better talent.',
-  },
-  {
-    image: '/images/webp/media/video_slider_eleven.webp',
-    title: '11. Coming Soon',
-    description: 'Stay tuned for more powerful features.',
-  },
+    {
+        image: '/images/webp/media/video_slider_one.webp',
+        title: '1. Your GigMedia Home',
+        description: 'Manage your profile, bookings, and requirements in one place.',
+    },
+    {
+        image: '/images/webp/media/video_slider_two.webp',
+        title: '2. Modify Bookings with Ease',
+        description: 'Update or manage your booked artists anytime.',
+    },
+    {
+        image: '/images/webp/media/video_slider_three.webp',
+        title: '3. Manage Your Posted Requirements',
+        description: 'Edit, track, or close job posts as needed.',
+    },
+    {
+        image: '/images/webp/media/video_slider_four.webp',
+        title: '4. Mark Favorite Artists',
+        description: 'Save top profiles for quick access and future hiring.',
+    },
+    {
+        image: '/images/webp/media/video_slider_five.webp',
+        title: '5. Find the Right Agency Fast',
+        description: 'Discover media agencies that match your exact needs.',
+    },
+    {
+        image: '/images/webp/media/video_slider_six.webp',
+        title: '6. Book Your Favorite Celebrity, Hassle-Free',
+        description: 'No middlemen, just smooth transactions.',
+    },
+    {
+        image: '/images/webp/media/video_slider_seven.webp',
+        title: '7. Chat Directly with Agencies',
+        description: 'Connect securely—without revealing personal details.',
+    },
+    {
+        image: '/images/webp/media/video_slider_eight.webp',
+        title: '8. Post Requirements, Get Matched',
+        description: 'Let the right talent find you.',
+    },
+    {
+        image: '/images/webp/media/video_slider_nine.webp',
+        title: '9. Dynamic Dashboard',
+        description: 'Update and manage your profile effortlessly.',
+    },
+    {
+        image: '/images/webp/media/video_slider_ten.webp',
+        title: '10. Build an Effective Profile',
+        description: 'Increase credibility and attract better talent.',
+    },
+    {
+        image: '/images/webp/media/video_slider_eleven.webp',
+        title: '11. Coming Soon',
+        description: 'Stay tuned for more powerful features.',
+    },
 ]
 
 
-export const phoneImages = [
-    '/images/webp/phone-one.webp',
-    '/images/webp/phone-two.webp',
-    '/images/webp/phone-three.webp',
-    '/images/webp/phone-one.webp',
+export const ARTIST_PHONE_IMAGES = [
+    '/images/webp/artist/video_slider_one.webp',
+    '/images/webp/artist/video_slider_two.webp',
+    '/images/webp/artist/video_slider_three.webp',
+    '/images/webp/artist/video_slider_four.webp',
+]
+export const CREATIVE_PHONE_IMAGES = [
+    '/images/webp/creative/video_slider_one.webp',
+    '/images/webp/creative/video_slider_two.webp',
+    '/images/webp/creative/video_slider_three.webp',
+    '/images/webp/creative/video_slider_four.webp',
+]
+export const MEDIA_PHONE_IMAGES = [
+    '/images/webp/media/video_slider_one.webp',
+    '/images/webp/media/video_slider_two.webp',
+    '/images/webp/media/video_slider_three.webp',
+    '/images/webp/media/video_slider_four.webp',
 ]
 
 export const ARTIST_VIDEO_LIST = [
