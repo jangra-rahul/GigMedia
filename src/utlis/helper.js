@@ -819,47 +819,194 @@ export const ARTIST_CELEBRITIES_DATA_LIST = [
 ];
 
 export const CREATIVE_CELEBRITIES_SLIDER_DATA = [
-    '/images/webp/creative/video_slider_one.webp',
-    '/images/webp/creative/video_slider_two.webp',
-    '/images/webp/creative/video_slider_three.webp',
-    '/images/webp/creative/video_slider_four.webp',
-    '/images/webp/creative/video_slider_five.webp',
-    '/images/webp/creative/video_slider_six.webp',
-    '/images/webp/creative/video_slider_seven.webp',
-    '/images/webp/creative/video_slider_eight.webp',
-    '/images/webp/creative/video_slider_nine.webp',
-    '/images/webp/creative/video_slider_ten.webp',
-    '/images/webp/creative/video_slider_eleven.webp',
-    '/images/webp/creative/video_slider_twelve.webp',
-    '/images/webp/creative/video_slider_thirteen.webp',
-    '/images/webp/creative/video_slider_fourteen.webp',
-    '/images/webp/creative/video_slider_fifteen.webp',
-]
+    {
+        image: '/images/webp/creative/video_slider_one.webp',
+        title: "1. Your GigMedia Home",
+        description: "Manage your profile, hiring, and booking needs in one place."
+    },
+    {
+        image: '/images/webp/creative/video_slider_two.webp',
+        title: "2. Book Celebrities, Hassle-Free",
+        description: "No middlemen—direct and transparent booking."
+    },
+    {
+        image: '/images/webp/creative/video_slider_three.webp',
+        title: "3. Explore In-Depth Celebrity Profiles",
+        description: "Know your talent before you book."
+    },
+    {
+        image: '/images/webp/creative/video_slider_four.webp',
+        title: "4. Check Celebrity Availability",
+        description: "Filter by date, location, budget, and more."
+    },
+    {
+        image: '/images/webp/creative/video_slider_five.webp',
+        title: "5. Feature Coming Soon",
+        description: "Stay tuned for more exciting features."
+    },
+    {
+        image: '/images/webp/creative/video_slider_six.webp',
+        title: "6. Post Openings Anytime",
+        description: "Add detailed job requirements in just a few clicks."
+    },
+    {
+        image: '/images/webp/creative/video_slider_seven.webp',
+        title: "7. Hire Artists Directly or via Associations",
+        description: "Flexible hiring to suit your workflow."
+    },
+    {
+        image: '/images/webp/creative/video_slider_eight.webp',
+        title: "8. AI-Powered Suggestions",
+        description: "Get profile recommendations tailored to your needs."
+    },
+    {
+        image: '/images/webp/creative/video_slider_nine.webp',
+        title: "9. Hire from a Diverse Talent Pool",
+        description: "Filter by job title, skills, and experience."
+    },
+    {
+        image: '/images/webp/creative/video_slider_ten.webp',
+        title: "10. Find the Right Agency Instantly",
+        description: "Connect with verified media agencies in seconds."
+    },
+    {
+        image: '/images/webp/creative/video_slider_eleven.webp',
+        title: "11. Short on Time? We’ll Hire for You",
+        description: "Let our team manage your artist recruitment."
+    },
+    {
+        image: '/images/webp/creative/video_slider_twelve.webp',
+        title: "12. Post Requirements to Get Offers",
+        description: "Receive tailored bids from top professionals."
+    },
+    {
+        image: '/images/webp/creative/video_slider_thirteen.webp',
+        title: "13. Smart Dashboard",
+        description: "Manage celebrity bookings, jobs, influencer managers & more."
+    },
+    {
+        image: '/images/webp/creative/video_slider_fourteen.webp',
+        title: "14. Manage Celebrity Engagements",
+        description: "Book, communicate, and track with ease."
+    },
+    {
+        image: '/images/webp/creative/video_slider_fifteen.webp',
+        title: "15. Track All Your Bookings",
+        description: "Stay updated on the status of every hire."
+    }
+];
+
 export const ARTIST_CELEBRITIES_SLIDER_DATA = [
-    '/images/webp/artist/video_slider_one.webp',
-    '/images/webp/artist/video_slider_two.webp',
-    '/images/webp/artist/video_slider_three.webp',
-    '/images/webp/artist/video_slider_four.webp',
-    '/images/webp/artist/video_slider_five.webp',
-    '/images/webp/artist/video_slider_six.webp',
-    '/images/webp/artist/video_slider_seven.webp',
-    '/images/webp/artist/video_slider_eight.webp',
-    '/images/webp/artist/video_slider_nine.webp',
-    '/images/webp/artist/video_slider_ten.webp',
+    {
+        image: '/images/webp/artist/video_slider_one.webp',
+        title: '1. Your GigMedia Home',
+        description: 'Profile & AI-Curated Job Opportunities.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_two.webp',
+        title: '2. Explore Jobs by Your Role',
+        description: 'Get listings relevant to your talent category.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_three.webp',
+        title: '3. Browse & Search Jobs Easily',
+        description: 'Use smart filters to find the right match.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_four.webp',
+        title: '4. Advanced Filters',
+        description: 'Refine your search by skills, location, pay, and more.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_five.webp',
+        title: '5. View Job Details & Apply Instantly',
+        description: 'Everything you need to decide—at a glance.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_six.webp',
+        title: '6. Discover Hiring Agencies',
+        description: 'View profiles, services, and previous projects.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_seven.webp',
+        title: '7. Artist Dashboard',
+        description: 'Manage your profile, applications, and visibility.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_eight.webp',
+        title: '8. Build Your Professional Portfolio & Reel',
+        description: 'Showcase your talent the right way.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_nine.webp',
+        title: '9. Personalized Job Feed',
+        description: 'AI-powered suggestions tailored to your career path.',
+    },
+    {
+        image: '/images/webp/artist/video_slider_ten.webp',
+        title: '10. Explore New Roles & Opportunities',
+        description: 'Search beyond your current category.',
+    },
 ]
+
 export const MEDIA_CELEBRITIES_SLIDER_DATA = [
-    '/images/webp/media/video_slider_one.webp',
-    '/images/webp/media/video_slider_two.webp',
-    '/images/webp/media/video_slider_three.webp',
-    '/images/webp/media/video_slider_four.webp',
-    '/images/webp/media/video_slider_five.webp',
-    '/images/webp/media/video_slider_six.webp',
-    '/images/webp/media/video_slider_seven.webp',
-    '/images/webp/media/video_slider_eight.webp',
-    '/images/webp/media/video_slider_nine.webp',
-    '/images/webp/media/video_slider_ten.webp',
-    '/images/webp/media/video_slider_eleven.webp',
+  {
+    image: '/images/webp/media/video_slider_one.webp',
+    title: '1. Your GigMedia Home',
+    description: 'Manage your profile, bookings, and requirements in one place.',
+  },
+  {
+    image: '/images/webp/media/video_slider_two.webp',
+    title: '2. Modify Bookings with Ease',
+    description: 'Update or manage your booked artists anytime.',
+  },
+  {
+    image: '/images/webp/media/video_slider_three.webp',
+    title: '3. Manage Your Posted Requirements',
+    description: 'Edit, track, or close job posts as needed.',
+  },
+  {
+    image: '/images/webp/media/video_slider_four.webp',
+    title: '4. Mark Favorite Artists',
+    description: 'Save top profiles for quick access and future hiring.',
+  },
+  {
+    image: '/images/webp/media/video_slider_five.webp',
+    title: '5. Find the Right Agency Fast',
+    description: 'Discover media agencies that match your exact needs.',
+  },
+  {
+    image: '/images/webp/media/video_slider_six.webp',
+    title: '6. Book Your Favorite Celebrity, Hassle-Free',
+    description: 'No middlemen, just smooth transactions.',
+  },
+  {
+    image: '/images/webp/media/video_slider_seven.webp',
+    title: '7. Chat Directly with Agencies',
+    description: 'Connect securely—without revealing personal details.',
+  },
+  {
+    image: '/images/webp/media/video_slider_eight.webp',
+    title: '8. Post Requirements, Get Matched',
+    description: 'Let the right talent find you.',
+  },
+  {
+    image: '/images/webp/media/video_slider_nine.webp',
+    title: '9. Dynamic Dashboard',
+    description: 'Update and manage your profile effortlessly.',
+  },
+  {
+    image: '/images/webp/media/video_slider_ten.webp',
+    title: '10. Build an Effective Profile',
+    description: 'Increase credibility and attract better talent.',
+  },
+  {
+    image: '/images/webp/media/video_slider_eleven.webp',
+    title: '11. Coming Soon',
+    description: 'Stay tuned for more powerful features.',
+  },
 ]
+
 
 export const phoneImages = [
     '/images/webp/phone-one.webp',

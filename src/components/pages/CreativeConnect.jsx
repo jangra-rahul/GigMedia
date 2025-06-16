@@ -29,7 +29,7 @@ const CreativeConnect = () => {
                 description={"Meet our talented artists — photographers, editors, performers, and creators — getting real gigs through the GigMedia platform every day."}
                 title={"Agencies"} mapdataAll={CREATIVE_CELEBRITIES_DATA_LIST} />
             <ArtistMobile
-                title={"Creative Connect Videos section"}
+                heading={"Creative Connect"}
                 mapdata={CREATIVE_CELEBRITIES_SLIDER_DATA}
                 description={<>
                     <span className="flex gap-2">

@@ -29,7 +29,7 @@ const MediaHub = () => {
                 description={"“From fans to founders — anyone can use GigMedia to book stars, plan events, and hire creative pros instantly.”"}
                 title={"Featured Celebrities"} mapdataAll={MEDIA_HUB_CELEBRITIES_DATA_LIST} />
             <ArtistMobile
-                title={'Media Hub Videos section'}
+                heading={'Media Hub'}
                 description={<>
                     <span className="flex gap-2">
                         <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>

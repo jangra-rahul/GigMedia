@@ -27,7 +27,7 @@ const ArtistAvenue = () => {
                 description="Meet our talented artists — photographers, editors, performers, and creators — getting real gigs through the GigMedia platform every day."
                 title={"Featured artist"} mapdataAll={ARTIST_CELEBRITIES_DATA_LIST} />
             <ArtistMobile
-                title={"Artists Videos section"}
+                heading={"Artists"}
                 description={<>
                     <span className="flex gap-2">
                         <span className="w-1 h-1 p-1 mt-2 rounded-full bg-black/70 block"></span>
